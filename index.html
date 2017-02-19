@@ -14,16 +14,16 @@
 
     <title>TSI2MARKET 2017</title>
     <script
-    src="https://code.jquery.com/jquery-3.1.1.min.js"
-    integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
-    crossorigin="anonymous"></script>
+            src="https://code.jquery.com/jquery-3.1.1.min.js"
+            integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+            crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
-        <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
+    <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-        <script
-    src="https://code.jquery.com/jquery-3.1.1.min.js"
-    integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
-    crossorigin="anonymous"></script>
+    <script
+            src="https://code.jquery.com/jquery-3.1.1.min.js"
+            integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+            crossorigin="anonymous"></script>
     <script src="semantic/dist/semantic.min.js"></script>
     <link rel="stylesheet" type="text/css" href="semantic/dist/components/dropdown.css">
     <!--<link rel="stylesheet" type="text/css" href="semantic/dist/components/reset.css">
@@ -251,7 +251,7 @@
         }
 
         #agenda_holder div.segment, #agenda_holder_2 div.segment {
-            max-width: 564px !important;
+            max-width: 50% !important;
         }
 
         #ais_2017 {
@@ -264,12 +264,12 @@
         }
 
         #challenges {
-            min-height:60vh;
+            min-height: 60vh;
         }
 
         #prog_details {
             min-height: 90vh;
-            padding-top:7%;
+            padding-top: 7%;
         }
 
         .spaced {
@@ -298,8 +298,8 @@
         }
 
         a.small-footer-logos img {
-            width:48px;
-            height:48px;
+            width: 48px;
+            height: 48px;
         }
 
         .cartaz {
@@ -337,8 +337,8 @@
         }
 
         #atividades {
-            min-height: 110vh;
-            padding-top:1.5%;
+            height: 110vh;
+            padding-top: 1.5%;
         }
 
         #atividades p, #atividades span {
@@ -347,7 +347,7 @@
         }
 
         #atividades p {
-            margin-left:0px;
+            margin-left: 0px;
             padding-left: 5px;
             text-transform: capitalize;
             font-variant: small-caps;
@@ -357,11 +357,15 @@
         }
 
         #atividades div.three.wide.column {
-            margin-bottom:20px;
+            margin-bottom: 20px;
         }
 
         #atividades div.three.wide.column i {
-            margin-bottom:12px;
+            margin-bottom: 12px;
+        }
+
+        #label_atividades {
+            margin: 40px 0;
         }
 
         /**
@@ -446,14 +450,15 @@
             transform: translateZ(0);
         }
 
-        @media(max-width:1200px) {
+        @media (max-width: 1200px) {
             .caption, .caption__media {
                 width: 120px;
                 height: 120px;
                 border-radius: 120px;
-                -webkit-border-radius:120px;
+                -webkit-border-radius: 120px;
                 -moz-border-radius: 120px;
             }
+
             .caption__overlay__title {
                 font-size: 10px;
             }
@@ -462,6 +467,7 @@
                 font-size: 8px;
             }
 
+
             #roster div.column {
                 max-width: 125px;
             }
@@ -469,36 +475,80 @@
             .spaced {
                 margin: 20px 80px 20px 0px;
             }
+
+            #label_atividades {
+                margin: 40px 0;
+                padding: 20px 0;
+            }
+
         }
 
-        @media(max-width:770px) {
+        @media (max-width: 790px) {
+            #btn-inscricoes {
+                display: none !important;
+            }
+
             .caption, .caption__media {
                 width: 90px;
                 height: 90px;
                 border-radius: 90px;
-                -webkit-border-radius:75px;
+                -webkit-border-radius: 75px;
                 -moz-border-radius: 75px;
-            }
-
-            #agenda_holder div.segment, #agenda_holder_2 div.segment {
-                max-width: 191px !important;
             }
 
             #roster div.column {
                 max-width: 110px;
             }
 
+            #ais_2017 {
+                min-height: 150vh;
+            }
+
+            #atividades {
+                min-height: 130vh;
+                padding-top: 0;
+            }
         }
 
-        @media(max-width:480px) {
+        @media (max-width: 480px) {
+
             #btn-inscricoes, #btn-contactos {
-                display:none;
-            }
-
-            #agenda_holder div.segment, #agenda_holder_2 div.segment {
-                max-width: 145px !important;
+                display: none;
             }
         }
+
+            @media (max-width: 360px) {
+
+                #btn-inscricoes, #btn-contactos {
+                    display: none;
+                }
+
+                .caption, .caption__media {
+                    width: 64px;
+                    height: 64px;
+                    border-radius: 60px;
+                    -webkit-border-radius: 60px;
+                    -moz-border-radius: 60px;
+                }
+
+                .caption__overlay__title {
+                    font-size: 8px;
+                    padding: 0 0px 10px 0px;
+                }
+
+                .caption__overlay__content {
+                    font-size: 6px;
+                }
+
+                #roster div.column {
+                    max-width: 70px;
+                }
+
+                #atividades {
+                    min-height: 160vh;
+                }
+            }
+
 
     </style>
 
@@ -807,7 +857,7 @@
         </div>
     </div>
 </section>
-<section id="agenda_c" >
+<section id="agenda_c">
     <div class="ui container">
         <div id="agenda_holder_2">
             <div class="ui raised divided horizontal segments">
@@ -887,16 +937,16 @@
 </section>
 
 <section id="atividades" class="ui inverted stackable segment">
-    <div class="ui container right aligned header" style="margin-bottom:100px;">
+    <div id="label_atividades" class="ui container right aligned header" style="">
         <h1> Atividades </h1>
     </div>
 
     <div class='landing-image' style=''>
-        <div class="ui text container">
+        <div class="ui middle aligned text container">
             <!-- Atividades aqui??? -->
             <div class="ui center aligned grid">
-                <div class="row" >
-                    <div class="three wide column spaced" >
+                <div class="row">
+                    <div class="three wide column spaced">
                         <i class="ui huge circular teal code icon"></i>
                         <p class="ui centered text">
                             Talks & Sessões Temáticas
@@ -1116,7 +1166,7 @@
 -->
 <section id="ais_2017" class="def-padding ui stackable segment">
 
-    <div class="ui container">
+    <div class="ui middle aligned container">
         <h2 class="ui right aligned header transformed">
             Núcleo de Estudantes de Sistemas de Informação
         </h2>
@@ -1171,7 +1221,7 @@
     </div>
 </section>
 
-<section id="contacts" class="ui stackable segment" >
+<section id="contacts" class="ui stackable segment">
     <div class="ui centered grid" style="margin-top:4%;">
         <div class="ui stackable aligned row">
             <div class="two wide center aligned column">
@@ -1239,8 +1289,8 @@
                 <div class="ui inverted link list">
                     <a href="https://www.eng.uminho.pt/pt" class=" small-footer-logos" target='_blank'>
                         <img class="ui tiny middle aligned stretched disabled rounded image"
-                             src = "http://www.dps.uminho.pt/images/EditorTexto/um_eeng.jpg" alt="...">
-                             <!--src="https://aisscum.files.wordpress.com/2014/07/eeng.gif" alt="...">-->
+                             src="http://www.dps.uminho.pt/images/EditorTexto/um_eeng.jpg" alt="...">
+                        <!--src="https://aisscum.files.wordpress.com/2014/07/eeng.gif" alt="...">-->
                     </a>
                     <a href="http://www.dsi.uminho.pt/" target='_blank' class="small-footer-logos">
                         <img class='ui tiny middle stretched aligned disabled rounded image'
