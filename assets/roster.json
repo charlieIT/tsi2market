@@ -1,0 +1,70 @@
+{
+  "roster" : {
+    "ana": [
+      "ana.png",
+      "Ana Raquel",
+      "Colaborador",
+      "Eva"
+    ],
+    "andre": [
+      "andre.png",
+      "André Pinheiro",
+      "Colaborador",
+      "kÁkÁ"
+    ],
+    "bruno": [
+      "bruno.png",
+      "Bruno",
+      "Colaborador",
+      "TiMoN"
+    ],
+    "claudio": [
+      "claudio.png",
+      "Cláudio Gonçalves",
+      "Colaborador",
+      "Poeta"
+    ],
+    "david": [
+      "david.png",
+      "David Carvalho",
+      "Conselho Fiscal",
+      "Lelo"
+    ],
+    "helena": [
+      "helena.png",
+      "Helena Silva",
+      "Conselho Fiscal",
+      "Leninha"
+    ],
+    "jose": [
+      "jose.png",
+      "José Correia",
+      "Presidente",
+      "Big Boss"
+    ],
+    "leandro": [
+      "leandro.png",
+      "Leandro Marques",
+      "Comunicação & Imagem",
+      "Photoshop Ninja"
+    ],
+    "luis": [
+      "luis.png",
+      "Luís Oliveira",
+      "Vice-Presidente",
+      "Bitaites"
+    ],
+    "maria": [
+      "maria.png",
+      "Maria Oliveira",
+      "Colaboradora",
+      ""
+    ],
+    "oliverio": [
+      "oliverio.png",
+      "Olivério Sousa",
+      "Secretário Assembleia",
+      ""
+    ]
+  }
+}
