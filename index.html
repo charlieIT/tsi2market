@@ -9,14 +9,17 @@
     <meta property="og:type" content="website">
     <meta name="description" content="TSI2MARKET - Departamento de Sistemas de Informação">
     <meta name="keywords" content="tsi, um, uminho, tsi2market, empresas, núcleo de estudantes de sistemas de informação
-              , AISSC UMINHO, AIS, aissc.dsi.uminho.pt">
+              , AISSC UMINHO, AIS, aissc.dsi.uminho.pt, PDTSI, MSI, UMinho, Escola de Engenharia">
     <meta property="og:url" content="http://aissc.uminho.pt/">
 
     <title>TSI2MARKET 2017</title>
+    <!--
     <script
             src="https://code.jquery.com/jquery-3.1.1.min.js"
             integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
-            crossorigin="anonymous"></script>
+            crossorigin="anonymous">
+          </script>
+        -->
     <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
     <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -34,7 +37,7 @@
     <link rel="stylesheet" type="text/css" href="semantic/dist/components/image.css">
     <link rel="stylesheet" type="text/css" href="semantic/dist/components/reveal.css">
     <link rel="stylesheet" type="text/css" href="semantic/dist/components/menu.css">
-    <link rel='stylesheet' type='text/css' href='semantic/dist/components/message.css'>
+    <link rel="stylesheet" type="text/css" href="semantic/dist/components/message.css">
     <link rel="stylesheet" type="text/css" href="semantic/dist/components/divider.css">
     <link rel="stylesheet" type="text/css" href="semantic/dist/components/dropdown.css">
     <link rel="stylesheet" type="text/css" href="semantic/dist/components/segment.css">
@@ -46,23 +49,23 @@
 -->
     <style type="text/css">
         @font-face {
-            font-family: 'Audimat';
+            font-family: "Audimat";
             font-style: normal;
             font-weight: normal;
-            src: url('audimat/AUdimat-Regular.otf');
-            src: url('audimat/AUdimat-Bold.otf') format('opentype'), url('audimat/AUdimat-BoldItalic.otf') format('opentype');
+            src: url("audimat/AUdimat-Regular.otf");
+            src: url("audimat/AUdimat-Bold.otf") format("opentype"), url("audimat/AUdimat-BoldItalic.otf") format("opentype");
         }
 
         html {
             height: 100%;
-            font-family: 'Audimat', fantasy !important;
+            font-family: "Audimat", fantasy !important;
             font-size: 0.85em;
             background-color: white;
         }
 
         body {
             font-family: inherit !important;
-        / / font-family: 'Audimat', serif !important;
+        / / font-family: "Audimat", serif !important;
             min-height: 100%;
         }
 
@@ -76,22 +79,21 @@
         button,
         header,
         div {
-            font-family: 'Audimat', fantasy !important;
+            font-family: "Audimat", fantasy !important;
         }
 
         .landing-image {
-            /*background: url('http://msi.dsi.uminho.pt/wp-content/uploads/2015/02/foto3.jpg') no-repeat center center fixed;*/
-            background: url('http://msi.dsi.uminho.pt/wp-content/uploads/2015/04/foto6-red.jpg') no-repeat center center fixed;
+            /*background: url("http://msi.dsi.uminho.pt/wp-content/uploads/2015/02/foto3.jpg") no-repeat center center fixed;*/
+            background: url("http://msi.dsi.uminho.pt/wp-content/uploads/2015/04/foto6-red.jpg") no-repeat center center fixed;
 
             background-size: cover !important;
-            /*background-color: lightskyblue;*/
+
             z-index: 0;
         }
 
         .landing-image-secondary {
-            background: url('http://msi.dsi.uminho.pt/wp-content/uploads/2015/02/foto3.jpg') no-repeat center center fixed;
+            background: url("http://msi.dsi.uminho.pt/wp-content/uploads/2015/02/foto3.jpg") no-repeat center center fixed;
             background-size: cover !important;
-            /* background-color: lightskyblue;*/
             opcacity: .4;
             z-index: -1;
         }
@@ -390,13 +392,15 @@
             border-radius: 150px;
             -webkit-border-radius: 150px;
             -moz-border-radius: 150px;
-        / / opacity: 0.95;
+        /*
+        opacity: 0.95;
+        */
         }
 
         .caption__overlay {
             text-align: center;
             color: white !important;
-            font-family: 'Lato';
+            font-family: "Lato";
             position: absolute;
             max-width: 200px;
             top: 0;
@@ -427,7 +431,7 @@
         }
 
         .caption::before {
-            content: ' ';
+            content: " ";
             position: absolute;
             top: 0;
             right: 0;
@@ -565,31 +569,31 @@
         $(document)
             .ready(function () {
 
-                //$('.ui.inline.dropdown').dropdown();
-                //window.alert('teste');
-                $('.ui.dropdown').dropdown();
+                //$(".ui.inline.dropdown").dropdown();
+                //window.alert("teste");
+                $(".ui.dropdown").dropdown();
 
-                $('.ui.menu a.item').click(function () {
-                    $('a.item.active').removeClass("active");
-                    $(this).addClass('active');
+                $(".ui.menu a.item").click(function () {
+                    $("a.item.active").removeClass("active");
+                    $(this).addClass("active");
                 });
 
                 // fix menu when passed
-                $('.masthead')
+                $(".masthead")
                     .visibility({
                         once: false,
                         onBottomPassed: function () {
-                            $('.fixed.menu').transition('fade in');
+                            $(".fixed.menu").transition("fade in");
                         },
                         onBottomPassedReverse: function () {
-                            $('.fixed.menu').transition('fade out');
+                            $(".fixed.menu").transition("fade out");
                         }
                     });
                 // create sidebar and attach to menu open
-                $('.ui.sidebar')
-                    .sidebar('attach events', '.toc.item');
+                $(".ui.sidebar")
+                    .sidebar("attach events", ".toc.item");
 
-                $('#teste_content').find('p').addClass('v2');
+                $("#teste_content").find("p").addClass("v2");
 
 
             });
@@ -598,7 +602,7 @@
     >
 </head>
 
-<body class='landing-image'>
+<body class="landing-image">
 
 <!-- Following Menu -->
 <div id="sec_top" class="ui medium top borderless fixed hidden menu">
@@ -613,16 +617,16 @@
             <div class="ui floating dropdown">
                 <i class="ui angle right icon"></i>
                 <div class="menu" style="left:0">
-                    <a class='item' href='http://aissc.dsi.uminho.pt/' target='_blank'>
-                        <i class='blue home icon'></i> AIS.SC@DSI
+                    <a class="item" href="http://aissc.dsi.uminho.pt/" target="_blank">
+                        <i class="blue home icon"></i> AIS.SC@DSI
                     </a>
-                    <a class="item" href="#" target='_blank'>
+                    <a class="item" href="#" target="_blank">
                         <i class="facebook blue icon"></i> Facebook
                     </a>
-                    <a class="item" target='_blank'>
+                    <a class="item" target="_blank">
                         <i class="twitter icon"></i> Twitter
                     </a>
-                    <a class="item" target='_blank'>
+                    <a class="item" target="_blank">
                         <i class="linkedin square icon blue"></i> LinkedIn
                     </a>
                 </div>
@@ -630,19 +634,19 @@
         </div>
 
         <div id="flyin" class="ui secondary menu">
-            <a class='item' href='http://aissc.dsi.uminho.pt/' target='_blank'>
-                <i class='blue home icon'></i> AIS.SC@DSI
+            <a class="item" href="http://aissc.dsi.uminho.pt/" target="_blank">
+                <i class="blue home icon"></i> AIS.SC@DSI
             </a>
 
-            <a class="item" href="https://www.facebook.com/AISSC.UMINHO/" target='_blank'>
+            <a class="item" href="https://www.facebook.com/AISSC.UMINHO/" target="_blank">
                 <i class="facebook blue icon"></i> Facebook
             </a>
-            <a href="https://www.linkedin.com/in/aisscum" class="item" target='_blank'>
+            <a href="https://www.linkedin.com/in/aisscum" class="item" target="_blank">
                 <i class="linkedin square icon blue"></i> LinkedIn
             </a>
 
-            <a class='item' href='https://twitter.com/aissc_uminho' target='_blank'>
-                <i class='icon twitter red'></i> Twitter
+            <a class="item" href="https://twitter.com/aissc_uminho" target="_blank">
+                <i class="icon twitter red"></i> Twitter
             </a>
         </div>
         <a class="right floated item" href="#contacts">Contactos</a>
@@ -726,7 +730,11 @@
                             <br/>
                             Departamento de Sistemas de Informação
                         </h2>
-                        <!--<div class="ui huge primary button">Get Started <i class="right arrow icon"></i></div>-->
+
+                        <!--
+                        <div class="ui huge primary button">Get Started <i class="right arrow icon"></i></div>
+                        -->
+
                         <br/>
                         <a href="#agenda">
                             <i id="pointer" class="huge pointing down icon"></i>
@@ -740,7 +748,8 @@
 
 
 <section id="agenda">
-    <!--<div class="four wide column">
+    <!-- comentar
+    <div class="four wide column">
   <div class="ui vertical segment">
   <div class="ui middle aligned stackable divided grid container">
   <div class="row">
@@ -775,7 +784,8 @@
       </div>
 
 
-  </div>-->
+  </div>
+  -->
 
     <div class="ui container">
         <div class="ui center aligned" style="margin-bottom: 50px;">
@@ -792,64 +802,64 @@
 
             </div>
             <div class="ui raised divided secondary horizontal segments">
-                <div class='ui secondary left aligned segment'>
+                <div class="ui secondary left aligned segment">
                     <p>Recepção</p>
                 </div>
-                <div class='ui secondary right aligned segment'>
+                <div class="ui secondary right aligned segment">
                     <p>TBD</p>
                 </div>
 
             </div>
             <div class="ui raised divided secondary horizontal segments">
-                <div class='ui secondary segment'>
+                <div class="ui secondary segment">
                     <p>TBD</p>
                 </div>
-                <div class='ui secondary right aligned segment'>
-                    <p>TBD</p>
-                </div>
-
-            </div>
-            <div class="ui raised divided secondary horizontal segments">
-                <div class='ui secondary segment'>
-                    <p>TBD</p>
-                </div>
-                <div class='ui secondary right aligned segment'>
+                <div class="ui secondary right aligned segment">
                     <p>TBD</p>
                 </div>
 
             </div>
             <div class="ui raised divided secondary horizontal segments">
-                <div class='ui secondary segment'>
+                <div class="ui secondary segment">
                     <p>TBD</p>
                 </div>
-                <div class='ui secondary right aligned segment'>
-                    <p>TBD</p>
-                </div>
-
-            </div>
-            <div class="ui raised divided secondary horizontal segments">
-                <div class='ui secondary segment'>
-                    <p>TBD</p>
-                </div>
-                <div class='ui secondary right aligned segment'>
+                <div class="ui secondary right aligned segment">
                     <p>TBD</p>
                 </div>
 
             </div>
             <div class="ui raised divided secondary horizontal segments">
-                <div class='ui secondary segment'>
+                <div class="ui secondary segment">
                     <p>TBD</p>
                 </div>
-                <div class='ui secondary right aligned segment'>
+                <div class="ui secondary right aligned segment">
                     <p>TBD</p>
                 </div>
 
             </div>
             <div class="ui raised divided secondary horizontal segments">
-                <div class='ui blue secondary segment'>
+                <div class="ui secondary segment">
                     <p>TBD</p>
                 </div>
-                <div class='ui blue secondary right aligned segment'>
+                <div class="ui secondary right aligned segment">
+                    <p>TBD</p>
+                </div>
+
+            </div>
+            <div class="ui raised divided secondary horizontal segments">
+                <div class="ui secondary segment">
+                    <p>TBD</p>
+                </div>
+                <div class="ui secondary right aligned segment">
+                    <p>TBD</p>
+                </div>
+
+            </div>
+            <div class="ui raised divided secondary horizontal segments">
+                <div class="ui blue secondary segment">
+                    <p>TBD</p>
+                </div>
+                <div class="ui blue secondary right aligned segment">
                     <p>TBD</p>
                 </div>
 
@@ -870,64 +880,64 @@
 
             </div>
             <div class="ui raised divided secondary horizontal segments">
-                <div class='ui secondary segment'>
+                <div class="ui secondary segment">
                     <p>TBD</p>
                 </div>
-                <div class='ui secondary right aligned segment'>
-                    <p>TBD</p>
-                </div>
-
-            </div>
-            <div class="ui raised divided secondary horizontal segments">
-                <div class='ui secondary segment'>
-                    <p>TBD</p>
-                </div>
-                <div class='ui secondary right aligned segment'>
+                <div class="ui secondary right aligned segment">
                     <p>TBD</p>
                 </div>
 
             </div>
             <div class="ui raised divided secondary horizontal segments">
-                <div class='ui secondary segment'>
+                <div class="ui secondary segment">
                     <p>TBD</p>
                 </div>
-                <div class='ui secondary right aligned segment'>
-                    <p>TBD</p>
-                </div>
-
-            </div>
-            <div class="ui raised divided secondary horizontal segments">
-                <div class='ui secondary segment'>
-                    <p>TBD</p>
-                </div>
-                <div class='ui secondary right aligned segment'>
+                <div class="ui secondary right aligned segment">
                     <p>TBD</p>
                 </div>
 
             </div>
             <div class="ui raised divided secondary horizontal segments">
-                <div class='ui secondary segment'>
+                <div class="ui secondary segment">
                     <p>TBD</p>
                 </div>
-                <div class='ui secondary right aligned segment'>
-                    <p>TBD</p>
-                </div>
-
-            </div>
-            <div class="ui raised divided secondary horizontal segments">
-                <div class='ui secondary segment'>
-                    <p>TBD</p>
-                </div>
-                <div class='ui secondary right aligned segment'>
+                <div class="ui secondary right aligned segment">
                     <p>TBD</p>
                 </div>
 
             </div>
             <div class="ui raised divided secondary horizontal segments">
-                <div class='ui blue secondary segment'>
+                <div class="ui secondary segment">
                     <p>TBD</p>
                 </div>
-                <div class='ui blue secondary right aligned segment'>
+                <div class="ui secondary right aligned segment">
+                    <p>TBD</p>
+                </div>
+
+            </div>
+            <div class="ui raised divided secondary horizontal segments">
+                <div class="ui secondary segment">
+                    <p>TBD</p>
+                </div>
+                <div class="ui secondary right aligned segment">
+                    <p>TBD</p>
+                </div>
+
+            </div>
+            <div class="ui raised divided secondary horizontal segments">
+                <div class="ui secondary segment">
+                    <p>TBD</p>
+                </div>
+                <div class="ui secondary right aligned segment">
+                    <p>TBD</p>
+                </div>
+
+            </div>
+            <div class="ui raised divided secondary horizontal segments">
+                <div class="ui blue secondary segment">
+                    <p>TBD</p>
+                </div>
+                <div class="ui blue secondary right aligned segment">
                     <p>TBD</p>
                 </div>
 
@@ -941,7 +951,7 @@
         <h1> Atividades </h1>
     </div>
 
-    <div class='landing-image' style=''>
+    <div class="landing-image" style="">
         <div class="ui middle aligned text container">
             <!-- Atividades aqui??? -->
             <div class="ui center aligned grid">
@@ -954,23 +964,23 @@
                     </div>
                     <div class="three wide column spaced">
                         <i class="ui huge circular inverted teal users icon"></i>
-                        <p class='ui centered text'>Networking</p>
+                        <p class="ui centered text">Networking</p>
                     </div>
                     <div class="three wide column spaced">
                         <i class="ui huge circular inverted teal student icon"></i>
-                        <p class='ui centered text'>Workshops</p>
+                        <p class="ui centered text">Workshops</p>
                     </div>
                     <div class="three wide column spaced">
                         <i class="ui huge circular inverted teal android icon"></i>
-                        <p class='ui centered text'>Desafios</p>
+                        <p class="ui centered text">Desafios</p>
                     </div>
                     <div class="three wide column spaced">
                         <i class="ui huge circular inverted white map icon"></i>
-                        <p class='ui centered text'>TechPaper</p>
+                        <p class="ui centered text">TechPaper</p>
                     </div>
                     <div class="three wide column spaced">
                         <i class="ui huge circular inverted teal diamond icon"></i>
-                        <p class='ui centered text'>Tsi de Gala</p>
+                        <p class="ui centered text">Tsi de Gala</p>
                     </div>
                 </div>
             </div>
@@ -978,7 +988,7 @@
     </div>
 </section>
 
-<section id='challenges'>
+<section id="challenges">
     <div class="ui vertical stripe segment">
         <div class="ui middle aligned stackable grid container">
             <div class="row">
@@ -990,14 +1000,14 @@
                 </div>
                 <div class="six wide right floated column">
                     <!--<img src="assets/images/wireframe/white-image.png" class="ui large bordered rounded image"> -->
-                    <div class='ui segments'>
-                        <div class='ui segment'>
+                    <div class="ui segments">
+                        <div class="ui segment">
                             Queremos eduRoam 1Gb/sec!
                         </div>
-                        <div class='ui segment'>
+                        <div class="ui segment">
                             Consertar a persiana da 0.10!
                         </div>
-                        <div class='ui segment'>
+                        <div class="ui segment">
                             TechPaper
                         </div>
                     </div>
@@ -1013,35 +1023,35 @@
     </div>
 </section>
 
-<section id='prog_details' class='ui stackable inverted segment transformed'>
+<section id="prog_details" class="ui stackable inverted segment transformed">
 
     <div class="ui container right aligned header" style="margin-bottom:100px;">
         <h1> Programa </h1>
     </div>
-    <div class='ui container'>
-        <div id='teste_content' class='ui grid'>
-            <div class='row'>
-                <div class='eight wide column'>
-                    <div class='ui message teal'>
-                        <i class='ui plus icon' style='float:right;'></i>
+    <div class="ui container">
+        <div id="teste_content" class="ui grid">
+            <div class="row">
+                <div class="eight wide column">
+                    <div class="ui message teal">
+                        <i class="ui plus icon" style="float:right;"></i>
                         <div class="header">Consertar a persiana da 0.10</div>
                         <p>Objetivo</p>
                     </div>
                 </div>
-                <div class='eight wide column'>
-                    <div class='ui message olive'>
-                        <i class='ui plus icon' style='float:right;'></i>
-                        <div class='header'>Testes de Quebra :O</div>
+                <div class="eight wide column">
+                    <div class="ui message olive">
+                        <i class="ui plus icon" style="float:right;"></i>
+                        <div class="header">Testes de Quebra :O</div>
                         <p>Partir 150 tábuas</p>
                     </div>
                 </div>
             </div>
-            <div class='row'>
-                <div class='eight wide column'>
-                    <div class='ui message olive'>
-                        <i class='ui plus icon' style='float:right;'></i>
+            <div class="row">
+                <div class="eight wide column">
+                    <div class="ui message olive">
+                        <i class="ui plus icon" style="float:right;"></i>
                         <div class="header">Workshop Android</div>
-                        <p class='v2'>
+                        <p class="v2">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vehicula nunc vitae justo
                             maximus sollicitudin. Morbi porta posuere sem, eu molestie elit semper a. Proin eu magna
                             quam. Sed laoreet blandit rutrum. Etiam sed sem mattis, imperdiet ipsum in,
@@ -1055,10 +1065,10 @@
                         </p>
                     </div>
                 </div>
-                <div class='eight wide column'>
-                    <div class='ui message teal'>
-                        <i id="teste_plus" class='ui plus icon' style='float:right;'></i>
-                        <div class='header'>Linked Open Data</div>
+                <div class="eight wide column">
+                    <div class="ui message teal">
+                        <i id="teste_plus" class="ui plus icon" style="float:right;"></i>
+                        <div class="header">Linked Open Data</div>
                         <p></p>
                     </div>
                 </div>
@@ -1073,42 +1083,42 @@
             <div class="column">
                 <h3>Parceiros </h3>
                 <br>
-                <div class='ui three column grid'>
-                    <div class='column'>
+                <div class="ui three column grid">
+                    <div class="column">
                         <a href="http://www.dsi.uminho.pt/" target="_blank">
-                            <img class='ui rounded centered image fluid medi-sponsors'
+                            <img class="ui rounded centered image fluid medi-sponsors"
                                  src="https://aisscum.files.wordpress.com/2014/07/eeng.gif" alt="..">
                         </a>
                     </div>
-                    <div class='column'>
+                    <div class="column">
                         <a href="http://www.aaum.pt/" target="_blank">
-                            <img class='ui small rounded centered fluid image' style="width:164px;height:120px;"
+                            <img class="ui small rounded centered fluid image" style="width:164px;height:120px;"
                                  src="https://aisscum.files.wordpress.com/2014/07/thumbnail_4a998864807ab87a26999769be0f7230ea5d0c25.jpg"
                                  alt="..">
                         </a>
                     </div>
-                    <div class='column'>
-                        <img class='ui tiny rounded centered fluid image'
+                    <div class="column">
+                        <img class="ui tiny rounded centered fluid image"
                              src="https://aisscum.files.wordpress.com/2014/07/dsi.gif" alt="..">
                     </div>
-                    <div class='column'>
+                    <div class="column">
                         <a href="http://www.sorrisoactivo.pt/" target="_blank">
-                            <img class='ui small rounded centered fluid image'
+                            <img class="ui small rounded centered fluid image"
                                  src="https://aisscum.files.wordpress.com/2016/05/13015600_1081679155186106_5906961819008190297_n.jpg?w=110&h=87"
                                  alt="..">
                         </a>
                     </div>
-                    <div class='column'>
+                    <div class="column">
                         <a href="https://www.displr.com/" target="_blank">
-                            <img class='ui rounded centered fluid image'
+                            <img class="ui rounded centered fluid image"
                                  src="
                                      https://aisscum.files.wordpress.com/2014/07/10600452_300398223493484_9057059678593762090_n.png"
                                  alt="..."/>
                         </a>
                     </div>
-                    <div class='column'>
+                    <div class="column">
                         <a href="http://yme.pt/" target="_blank">
-                            <img class='ui rounded centered fluid image'
+                            <img class="ui rounded centered fluid image"
                                  src="
                                      https://aisscum.files.wordpress.com/2014/11/3cfa0409fe3a29888c4346e9e6b213dbcadbc5a5.jpg"
                                  alt="..."/>
@@ -1151,7 +1161,7 @@
 </section>
 
 <!--
-<section id="have-fun" style='min-height: 90vh;'>
+<section id="have-fun" style="min-height: 90vh;">
     <div class="ui centered grid" style="margin-top: 3%;">
         <div class="center aligned row">
             <div class="twelve wide column">
@@ -1173,50 +1183,7 @@
         <div>
             <div id="roster" class="ui relaxed stackable grid"></div>
             <script src="app.js"></script>
-            <!--
-                        <article class="caption">
-                            <img class="caption__media"
-                                 src="http://www.cmuportugal.org/uploadedImages/people/faculty-researchers/Iramos_2010_v1.jpg" />
-                            <div class="caption__overlay">
-                                <h4 class="caption__overlay__title">Dr. Isabel Ramos</h4>
-                                <div class="caption__overlay__content">
-                                    <p><b>Position : </b>Secretary</p>
-                                    <p><b>Address : </b>Dep. Sistemas de Informação, Universidade do Minho, Campus de Azurém, 4800-058 Guimarães, Portugal.</p>
-                                    <p><b>Phone : </b>+351 253510317</p>
-                                    <p><b>Fax : </b>+351 253510300</p>
-                                    <p><b>Email : </b>iramos@dsi.uminho.pt</p>
-                                </div>
-                            </div>
-                        </article>
-            -->
-            <!--<div class="row">
-                              <div class="column">
-                                  <script>ais_2016_staff(0, 0)</script>
-                                  <img src="../../assets/male.png" alt=".."/>
-                              </div>
-                              <div class="column"></div>
-                              <div class="column"></div>
-                              <div class="column"></div>
-                              <div class="column"></div>
-                          </div>-->
 
-            <!--
-                        <div class="ui grid">
-                            <div class="row">
-                                <div class="column">
-                                    <div class="ui fade reveal">
-                                        <div class="visible content">
-                                            <img src="../../assets/male.png" class="ui mini image">
-
-                                        </div>
-                                        <div class="hidden content">
-                                            <img src="campus.jpg" class="ui mini image" alt="..">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        -->
         </div>
     </div>
 </section>
@@ -1229,10 +1196,11 @@
             </div>
             <div class="four wide column" style="padding-top: 10px;">
                 <h3 class="contact-info">
-                    <span class='ui centered text'>Aissc@dsi.uminho.pt</span>
+                    <span class="ui centered text">Aissc@dsi.uminho.pt</span>
                     <br/>
-                    <span class='ui centered text'>253 510 319</span>
+                    <span class="ui centered text">253 510 319</span>
                 </h3>
+
             </div>
         </div>
         <hr class="my-style">
@@ -1242,7 +1210,7 @@
             </div>
             <div class="four wide column" style="padding-top: 10px;">
                 <h3 class="contact-info">
-                        <span class='ui centered text'>AIS.SC UMinho
+                        <span class="ui centered text">AIS.SC UMinho
                             <br/>Departamento de Sistemas de Informação
                             <br/>Sala de Reuniões I
                             <br/>Campus de Azurém
@@ -1270,13 +1238,13 @@
             <div class="three wide column">
                 <h4 class="ui inverted header">Social Media</h4>
                 <div class="ui inverted link list">
-                    <a href="https://www.facebook.com/AISSC.UMINHO/?fref=ts" target='_blank'>
+                    <a href="https://www.facebook.com/AISSC.UMINHO/?fref=ts" target="_blank">
                         <i class="big disabled facebook blue icon"></i>
                     </a>
-                    <a href="https://twitter.com/aissc_uminho" target='_blank'>
+                    <a href="https://twitter.com/aissc_uminho" target="_blank">
                         <i class="big disabled twitter blue icon"></i>
                     </a>
-                    <a href="https://www.linkedin.com/in/aisscum" target='_blank'>
+                    <a href="https://www.linkedin.com/in/aisscum" target="_blank">
                         <i class="big disabled linkedin blue icon"></i>
                     </a>
                     <a href="https://aissc.dsi.uminho.pt/" target="_blank">
@@ -1287,21 +1255,21 @@
             <div class="eight wide column">
                 <h4 class="ui inverted header">Apoios</h4>
                 <div class="ui inverted link list">
-                    <a href="https://www.eng.uminho.pt/pt" class=" small-footer-logos" target='_blank'>
+                    <a href="https://www.eng.uminho.pt/pt" class=" small-footer-logos" target="_blank">
                         <img class="ui tiny middle aligned stretched disabled rounded image"
                              src="http://www.dps.uminho.pt/images/EditorTexto/um_eeng.jpg" alt="...">
                         <!--src="https://aisscum.files.wordpress.com/2014/07/eeng.gif" alt="...">-->
                     </a>
-                    <a href="http://www.dsi.uminho.pt/" target='_blank' class="small-footer-logos">
-                        <img class='ui tiny middle stretched aligned disabled rounded image'
-                             src='assets/logo_ais_trp.png'
-                             alt='jogos grátis na steam :O'>
+                    <a href="http://www.dsi.uminho.pt/" target="_blank" class="small-footer-logos">
+                        <img class="ui tiny middle stretched aligned disabled rounded image"
+                             src="assets/logo_ais_trp.png"
+                             alt="jogos grátis na steam :O">
                     </a>
                     <a href="https://www.facebook.com/cafeuniversidade?fref=ts"
-                       target='_blank' class="small-footer-logos">
-                        <img class='ui middle stretched aligned disabled rounded image'
-                             src='assets/cafe_logo.jpg'
-                             alt='jogos grátis na steam :O'>
+                       target="_blank" class="small-footer-logos">
+                        <img class="ui middle stretched aligned disabled rounded image"
+                             src="assets/cafe_logo.jpg"
+                             alt="jogos grátis na steam :O">
                     </a>
                 </div>
 
@@ -1332,7 +1300,6 @@
         </div>
     </div>
 </div>
-</div>
 
 <!--<div style="min-height: 110vh;" class="landing-image">
           <h1 class="ui header">
@@ -1342,39 +1309,39 @@
       -->
 
 <script>
-    $('#teste_content').on("click", function (event) {
-        var par = $(event.target).siblings('p');
+    $("#teste_content").on("click", function (event) {
+        var par = $(event.target).siblings("p");
         var icon = $(event.target);
-        if (par.is(':visible')) {
-            par.removeClass('v1').addClass('v2');
-            icon.removeClass('minus').addClass('plus');
+        if (par.is(":visible")) {
+            par.removeClass("v1").addClass("v2");
+            icon.removeClass("minus").addClass("plus");
         } else {
-            par.removeClass('v2').addClass('v1');
-            icon.removeClass('plus').addClass('minus');
+            par.removeClass("v2").addClass("v1");
+            icon.removeClass("plus").addClass("minus");
         }
     });
 
-    $('#pointer').hover(function () {
-        $(this).transition('pulse');
+    $("#pointer").hover(function () {
+        $(this).transition("pulse");
     });
 
-    $('.ui.dropdown').dropdown();
-    $('#flyin').hide();
+    $(".ui.dropdown").dropdown();
+    $("#flyin").hide();
 
-    $('#social_media').mouseenter(function () {
-        $('.ui.dropdown').dropdown();
-        $('#flyin').transition('slide left');
+    $("#social_media").mouseenter(function () {
+        $(".ui.dropdown").dropdown();
+        $("#flyin").transition("slide left");
     });
 
-    $('#sec_top').mouseleave(function () {
-        $('#flyin').transition('hide');
+    $("#sec_top").mouseleave(function () {
+        $("#flyin").transition("hide");
     });
 
     function loadJSON(callback) {
 
         var xobj = new XMLHttpRequest();
         xobj.overrideMimeType("application/json");
-        xobj.open('GET', 'assets/roster.json', true);
+        xobj.open("GET", "assets/roster.json", true);
         xobj.onreadystatechange = function () {
             if (xobj.readyState == 4 && xobj.status == "200") {
                 // Required use of an anonymous callback as .open will NOT return a value but simply returns undefined in asynchronous mode
@@ -1408,25 +1375,25 @@
                     var roster = $("#roster");
 
 
-                    var col = document.createElement('div');
+                    var col = document.createElement("div");
                     col.className = "four wide column";
-                    var article = document.createElement('div');
+                    var article = document.createElement("div");
                     article.className = "caption";
-                    var img = document.createElement('img');
+                    var img = document.createElement("img");
                     img.src = uri;
                     img.className = "caption__media";
-                    var overlay = document.createElement('div');
-                    overlay.className = 'caption__overlay transformed';
-                    var title = document.createElement('h4');
+                    var overlay = document.createElement("div");
+                    overlay.className = "caption__overlay transformed";
+                    var title = document.createElement("h4");
                     title.className = "caption__overlay__title";
                     title.innerHTML = array[1];
-                    var content = document.createElement('div');
-                    content.className = 'caption__overlay__content';
+                    var content = document.createElement("div");
+                    content.className = "caption__overlay__content";
 
-                    var cargo = document.createElement('p');
+                    var cargo = document.createElement("p");
                     cargo.innerHTML = array[2];
 
-                    var noun = document.createElement('p');
+                    var noun = document.createElement("p");
                     noun.innerHTML = array[3];
 
                     content.appendChild(cargo);
@@ -1439,7 +1406,7 @@
                     col.appendChild(article);
                     roster.append(col)
 
-                    //append( "<img class='roster-pic' src='"+ folder + val +"'>" );
+                    //append( "<img class="roster-pic" src=""+ folder + val +"">" );
                     count++;
                 }
 
