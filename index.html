@@ -266,7 +266,11 @@
         }
 
         #ais_2017 {
-            min-height: 120vh;
+            height: auto;
+        }
+
+        #ais_2017 #roster {
+            position: relative;
         }
 
         #contacts {
@@ -348,8 +352,12 @@
         }
 
         #atividades {
-            height: 110vh;
+            height: auto;
             padding-top: 1.5%;
+        }
+
+        #atividades #atividades_content {
+            position: relative;
         }
 
         #atividades p, #atividades span {
@@ -386,8 +394,8 @@
         .caption {
             position: relative;
             overflow: hidden;
-            width: 200px;
-            height: 200px;
+            width: 80%;
+            height: 80%;
             border-radius: 150px;
             -webkit-border-radius: 150px;
             -moz-border-radius: 150px;
@@ -396,8 +404,8 @@
         .caption__media {
             display: block;
             /**min-width: 100%;*/
-            width: 200px;
-            height: 200px;
+            width: 100%;
+            height: 100%;
             border-radius: 150px;
             -webkit-border-radius: 150px;
             -moz-border-radius: 150px;
@@ -422,6 +430,7 @@
             border-radius: 150px;
             -webkit-border-radius: 150px;
             -moz-border-radius: 150px;
+
         }
 
         .caption:hover .caption__overlay {
@@ -464,13 +473,14 @@
         }
 
         @media (max-width: 1200px) {
-            .caption, .caption__media {
+            /*.caption, .caption__media {
                 width: 120px;
                 height: 120px;
                 border-radius: 120px;
                 -webkit-border-radius: 120px;
                 -moz-border-radius: 120px;
             }
+            */
 
             .caption__overlay__title {
                 font-size: 10px;
@@ -482,11 +492,11 @@
 
 
             #roster div.column {
-                max-width: 125px;
+                /*max-width: 125px;*/
             }
 
             .spaced {
-                margin: 20px 80px 20px 0px;
+                margin: 20px 80px 15px 0px;
             }
 
             #label_atividades {
@@ -501,25 +511,29 @@
                 display: none !important;
             }
 
-            .caption, .caption__media {
+           /* .caption, .caption__media {
                 width: 90px;
                 height: 90px;
                 border-radius: 90px;
                 -webkit-border-radius: 75px;
                 -moz-border-radius: 75px;
             }
-
+*/
             #roster div.column {
-                max-width: 110px;
+                max-width: 33%;
             }
 
             #ais_2017 {
-                min-height: 150vh;
+                /*min-height: 150vh;*/
             }
 
             #atividades {
                 min-height: 130vh;
                 padding-top: 0;
+            }
+
+            #atividades_content {
+                margin-bottom: 25px;
             }
         }
 
@@ -528,6 +542,10 @@
             #btn-inscricoes, #btn-contactos {
                 display: none;
             }
+
+            #roster div.column {
+               min-width: 50%;
+            }
         }
 
             @media (max-width: 360px) {
@@ -535,7 +553,7 @@
                 #btn-inscricoes, #btn-contactos {
                     display: none;
                 }
-
+/*
                 .caption, .caption__media {
                     width: 64px;
                     height: 64px;
@@ -543,6 +561,7 @@
                     -webkit-border-radius: 60px;
                     -moz-border-radius: 60px;
                 }
+                */
 
                 .caption__overlay__title {
                     font-size: 8px;
@@ -554,7 +573,7 @@
                 }
 
                 #roster div.column {
-                    max-width: 70px;
+                    width: 50%;
                 }
 
                 #atividades {
@@ -607,8 +626,7 @@
 
             });
 
-    </script
-    >
+    </script>
 </head>
 
 <body class="landing-image">
@@ -962,13 +980,13 @@
         <h1> Atividades </h1>
     </div>
 
-    <div class="landing-image" style="">
+    <div id="atividades_content" class="landing-image" style="">
         <div class="ui middle aligned text container">
             <!-- Atividades aqui??? -->
             <div class="ui center aligned grid">
                 <div class="row">
                     <div class="three wide column spaced">
-                        <i class="ui huge circular teal code icon"></i>
+                        <i class="ui huge circular inverted teal code icon"></i>
                         <p class="ui centered text">
                             Talks & Sessões Temáticas
                         </p>
@@ -986,11 +1004,15 @@
                         <p class="ui centered text">Desafios</p>
                     </div>
                     <div class="three wide column spaced">
-                        <i class="ui huge circular inverted white map icon"></i>
+                        <!--<i class="huge icons">
+                            <i class="big circle teal icon"></i>
+                            <i class="map black teal icon"></i>
+                        </i>-->
+                        <i class="ui huge circular inverted black map icon"></i>
                         <p class="ui centered text">TechPaper</p>
                     </div>
                     <div class="three wide column spaced">
-                        <i class="ui huge circular inverted teal diamond icon"></i>
+                        <i class="ui huge circular inverted vertically flipped teal diamond icon"></i>
                         <p class="ui centered text">Tsi de Gala</p>
                     </div>
                 </div>
@@ -1373,7 +1395,7 @@
             count_row = 1;
             count_col = 0;
 
-            var folder = "assets/fotos/";
+            var folder = "assets/photos/";
             var count = 0;
             for (var item in actual_JSON) {
                 /** console.log(actual_JSON.roster);
