@@ -1,0 +1,529 @@
+/**
+Created by Luís Oliveira
+https://github.com/charlieIT
+ */
+
+@font-face {
+    font-family: "Audimat";
+    font-style: normal;
+    font-weight: normal;
+    src: url("audimat/AUdimat-Regular.otf");
+    src: url("audimat/AUdimat-Bold.otf") format("opentype"), url("audimat/AUdimat-BoldItalic.otf") format("opentype");
+}
+
+html {
+    height: 100%;
+    font-family: "Audimat", fantasy !important;
+    font-size: 0.85em;
+    background-color: white;
+}
+
+body {
+    font-family: inherit !important;
+/ / font-family: "Audimat", serif !important;
+    min-height: 100%;
+}
+
+body,
+h1,
+h2,
+h3,
+img,
+a,
+input,
+button,
+header,
+div {
+    font-family: "Audimat", fantasy !important;
+}
+
+.landing-image {
+    /*background: url("http://msi.dsi.uminho.pt/wp-content/uploads/2015/02/foto3.jpg") no-repeat center center fixed;*/
+
+    background: url("http://msi.dsi.uminho.pt/wp-content/uploads/2015/02/foto11.jpg") no-repeat center center fixed;
+    background-size: cover !important;
+
+    z-index: 0;
+}
+
+.landing-image-secondary {
+    /*background: url("http://msi.dsi.uminho.pt/wp-content/uploads/2015/02/foto3.jpg") no-repeat center center fixed;*/
+    background: url("http://msi.dsi.uminho.pt/wp-content/uploads/2015/04/foto6-red.jpg") no-repeat center center fixed;
+    background-size: cover !important;
+    opcacity: .4;
+    z-index: -1;
+}
+
+.roster-pic {
+    height: 64px;
+    width: 64px;
+}
+
+.ais-background {
+    background: url(assets/logo_ais_trp.png) no-repeat center center fixed;
+    background-size: cover !important;
+}
+
+.hidden.menu {
+    display: none;
+}
+
+.masthead.segment {
+    min-height: 700px;
+    padding: 1em 0em;
+}
+
+.masthead .logo.item img {
+    margin-right: 1em;
+}
+
+.masthead .ui.menu .ui.button {
+    margin-left: 0.5em;
+}
+
+.masthead h1.ui.header {
+    margin-top: 3em;
+    margin-bottom: 0em;
+    font-size: 4em;
+    font-weight: normal;
+}
+
+.masthead h2 {
+    font-size: 1.7em;
+    font-weight: normal;
+}
+
+.ui.vertical.stripe {
+    padding: 8em 0em;
+}
+
+.ui.vertical.stripe h3 {
+    font-size: 2em;
+}
+
+.ui.vertical.stripe .button + h3,
+.ui.vertical.stripe p + h3 {
+    margin-top: 3em;
+}
+
+.ui.vertical.stripe .floated.image {
+    clear: both;
+}
+
+.ui.vertical.stripe p {
+    font-size: 1.33em;
+}
+
+.ui.vertical.stripe .horizontal.divider {
+    margin: 3em 0em;
+}
+
+.quote.stripe.segment {
+    padding: 0em;
+}
+
+.quote.stripe.segment .grid .column {
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
+.footer.segment {
+    padding: 5em 0em;
+}
+
+.secondary.pointing.menu .toc.item {
+    display: none;
+}
+
+/** Override */
+.ui.secondary.inverted.pointing.menu .item:hover {
+    color: gray !important;
+}
+
+@media only screen and (max-width: 700px) {
+    .ui.fixed.menu {
+        display: none !important;
+    }
+
+    .secondary.pointing.menu .item,
+    .secondary.pointing.menu .menu {
+        display: none;
+    }
+
+    .secondary.pointing.menu .toc.item {
+        display: block;
+    }
+
+    .masthead.segment {
+        min-height: 350px;
+    }
+
+    .masthead h1.ui.header {
+        font-size: 2em;
+        margin-top: 1.5em;
+    }
+
+    .masthead h2 {
+        margin-top: 0.5em;
+        font-size: 1.5em;
+    }
+}
+
+.top.fixed.menu {
+    opacity: 0.7;
+}
+
+.img2 {
+    width: 64px;
+    height: 64px;
+}
+
+.medi-sponsors {
+    width: 60px;
+    height: 48px;
+}
+
+.def-padding {
+    height: 110vh;
+    padding-top: 10%;
+}
+
+.hilight {
+    background: yellow;
+}
+
+.v1 {
+    display: inline;
+}
+
+.v2 {
+    display: none;
+}
+
+#agenda,
+#agenda_c,
+#ais_2016 {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    min-height: 80vh;
+}
+
+#agenda_holder div.segment, #agenda_holder_2 div.segment {
+    max-width: 50% !important;
+}
+
+#ais_2017 {
+    height: auto;
+}
+
+#ais_2017 #roster {
+    position: relative;
+}
+
+#contacts {
+    min-height: 70vh;
+    padding: 3% 0 10% 0;
+}
+
+#challenges {
+    min-height: 60vh;
+}
+
+#prog_details {
+    min-height: 90vh;
+    padding-top: 7%;
+}
+
+.spaced {
+    margin: 20px 35px;
+}
+
+.contact-info {
+    text-align: center;
+    line-height: 22px;
+    font-variant: small-caps;
+}
+
+.my-style {
+    border-bottom: 1px solid gray;
+    min-width: 500px;
+}
+
+.transformed {
+    /*text-transform: uppercase;*/
+    font-variant: small-caps;
+}
+
+.small-footer-logos {
+    float: left;
+    padding: 0 10px;
+}
+
+a.small-footer-logos img {
+    width: 48px;
+    height: 48px;
+}
+
+.cartaz {
+    background-image: url(https://aisscum.files.wordpress.com/2016/03/untitled2.jpg?w=503&h=356);
+}
+
+#sec_top {
+    background-color: black;
+    font-variant: small-caps;
+}
+
+#sec_top a, .menu, .item, .menu, #social_media {
+    color: white;
+}
+
+#sec_top .item:hover {
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.02);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.02);
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.02);
+    transition: all 200ms ease-in;
+    transform: scale(1.02);
+}
+
+#about-text {
+    padding: 3% 0;
+}
+
+#about-text p, #about-text h3 {
+    padding: 2px 12px;
+    color: white !important;
+    background-color: rgba(0, 0, 0, .4);
+}
+
+#atividades {
+    height: auto;
+    padding-top: 1.5%;
+}
+
+#atividades #atividades_content {
+    position: relative;
+}
+
+#atividades p, #atividades span {
+    color: white !important;
+    background-color: rgba(0, 0, 0, .6);
+}
+
+#atividades p {
+    margin-left: 0px;
+    padding-left: 5px;
+    text-transform: capitalize;
+    font-variant: small-caps;
+    font-size: 14pt;
+    text-align: center;
+    min-width: 120px;
+}
+
+#atividades div.three.wide.column {
+    margin-bottom: 20px;
+}
+
+#atividades div.three.wide.column i {
+    margin-bottom: 12px;
+}
+
+#label_atividades {
+    margin: 40px 0;
+}
+
+/**
+  Overlays
+ */
+
+.caption {
+    position: relative;
+    overflow: hidden;
+    width: 80%;
+    height: 80%;
+    border-radius: 150px;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+}
+
+.caption__media {
+    display: block;
+    /**min-width: 100%;*/
+    width: 100%;
+    height: 100%;
+    border-radius: 150px;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+    /*
+    opacity: 0.95;
+    */
+}
+
+.caption__overlay {
+    text-align: center;
+    color: white !important;
+    font-family: "Lato";
+    position: absolute;
+    max-width: 200px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 12px;
+    transform: translateY(100%);
+    transition: transform .35s ease-out;
+    border-radius: 150px;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+
+}
+
+.caption:hover .caption__overlay {
+    transform: translateY(0);
+}
+
+.caption__overlay__title {
+    margin: 0;
+    padding: 0 0px 20px 0px;
+    transform: translateY(calc(-100% - 10px)); /* +10px overlay padding */
+    transition: transform .35s ease-out;
+}
+
+.caption:hover .caption__overlay__title {
+    transform: translateY(0);
+}
+
+.caption::before {
+    content: " ";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: transparent;
+    transition: background .35s ease-out;
+}
+
+.caption:hover::before {
+    background: rgba(0, 0, 0, .5);
+}
+
+.caption__overlay__content {
+    text-align: center;
+    margin-top: -5px;
+}
+
+.caption {
+    transform: translateZ(0);
+}
+
+@media (max-width: 1200px) {
+    /*.caption, .caption__media {
+        width: 120px;
+        height: 120px;
+        border-radius: 120px;
+        -webkit-border-radius: 120px;
+        -moz-border-radius: 120px;
+    }
+    */
+
+    .caption__overlay__title {
+        font-size: 10px;
+    }
+
+    .caption__overlay__content {
+        font-size: 8px;
+    }
+
+
+    #roster div.column {
+        /*max-width: 125px;*/
+    }
+
+    .spaced {
+        margin: 20px 80px 15px 0px;
+    }
+
+    #label_atividades {
+        margin: 40px 0;
+        padding: 20px 0;
+    }
+
+}
+
+@media (max-width: 790px) {
+    #btn-inscricoes {
+        display: none !important;
+    }
+
+    /* .caption, .caption__media {
+         width: 90px;
+         height: 90px;
+         border-radius: 90px;
+         -webkit-border-radius: 75px;
+         -moz-border-radius: 75px;
+     }
+*/
+    #roster div.column {
+        max-width: 33%;
+    }
+
+    #ais_2017 {
+        /*min-height: 150vh;*/
+    }
+
+    #atividades {
+        min-height: 130vh;
+        padding-top: 0;
+    }
+
+    #atividades_content {
+        margin-bottom: 25px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    #btn-inscricoes, #btn-contactos {
+        display: none;
+    }
+
+    #roster div.column {
+        min-width: 50%;
+    }
+}
+
+@media (max-width: 360px) {
+
+    #btn-inscricoes, #btn-contactos {
+        display: none;
+    }
+    /*
+                    .caption, .caption__media {
+                        width: 64px;
+                        height: 64px;
+                        border-radius: 60px;
+                        -webkit-border-radius: 60px;
+                        -moz-border-radius: 60px;
+                    }
+                    */
+
+    .caption__overlay__title {
+        font-size: 12px;
+        padding: 0 0px 10px 0px;
+    }
+
+    .caption__overlay__content {
+        font-size: 8px;
+    }
+
+    #roster div.column {
+        width: 50%;
+    }
+
+    #atividades {
+        min-height: 160vh;
+    }
+}

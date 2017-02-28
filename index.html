@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
     <meta property="og:locale" content="pt_PT">
+    <title>TSI2MARKET 2017</title>
     <meta name="description" content="TSI2MARKET - Departamento de Sistemas de Informação">
     <meta name="keywords" content="tsi, um, uminho, tsi2market, empresas,
               núcleo de estudantes de sistemas de informação,AISSC UMINHO, AIS,
@@ -21,14 +22,6 @@
     <meta name="coyLeft" content="use it freely">
     <meta name="language" content="PT">
 
-    <title>TSI2MARKET 2017</title>
-    <!--
-    <script
-            src="https://code.jquery.com/jquery-3.1.1.min.js"
-            integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
-            crossorigin="anonymous">
-          </script>
-        -->
     <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
     <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -37,6 +30,7 @@
             integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
             crossorigin="anonymous"></script>
     <script src="semantic/dist/semantic.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
     <link rel="stylesheet" type="text/css" href="semantic/dist/components/dropdown.css">
     <!--<link rel="stylesheet" type="text/css" href="semantic/dist/components/reset.css">
     <link rel="stylesheet" type="text/css" href="semantic/dist/components/site.css">
@@ -56,7 +50,8 @@
     <link rel="stylesheet" type="text/css" href="semantic/dist/components/sidebar.css">
     <link rel="stylesheet" type="text/css" href="semantic/dist/components/transition.css">
 -->
-    <style type="text/css">
+    <!-- styling -->
+    <!--<style type="text/css">
         @font-face {
             font-family: "Audimat";
             font-style: normal;
@@ -583,6 +578,7 @@
 
 
     </style>
+-->
 
     <script src="jquery-2.1.4.min.js"></script>
     <script src="jquery-2.1.4.js"></script>
@@ -630,6 +626,7 @@
 </head>
 
 <body class="landing-image">
+
 
 <!-- Following Menu -->
 <div id="sec_top" class="ui medium top borderless fixed hidden menu">
@@ -694,10 +691,10 @@
 
 <!-- Sidebar Menu -->
 <div class="ui vertical inverted sidebar menu transformed">
-    <a class="active item">Evento</a>
-    <a class="item">Agenda</a>
-    <a class="item">Programa</a>
-    <a class="item">Empresas</a>
+    <a class="active item" href="#main">Evento</a>
+    <a class="item" href="#agenda">Agenda</a>
+    <a class="item" href="#prog_details">Programa</a>
+    <a class="item" href="#empresas">Empresas</a>
     <a class="item">Oradores</a>
     <a href="hextris-gh-pages/index.html" class="item" target="_blank">Have Fun! :)</a>
     <a href="#contacts" class="item">Contactos</a>
@@ -706,10 +703,10 @@
 
 <!-- Page Contents -->
 <div class="pusher">
+    <!-- menu -->
     <div class="ui inverted vertical masthead center aligned segment">
-
         <div class="ui container">
-            <!-- seconday??? -->
+            <!-- secondary??? -->
             <div class="ui large inverted secondary borderless pointing menu">
                 <div class="left item">
                     <a href="http://aissc.dsi.uminho.pt" target="_blank">
@@ -746,7 +743,7 @@
                 </div>
             </div>
         </div>
-
+<!-- main area landing -->
         <section id="main">
             <div class="ui two column stackable centered grid">
                 <!-- background AIS/TSI? -->
@@ -773,48 +770,10 @@
             </div>
         </section>
     </div>
-</div>
 
 
+<!-- Agenda evento -->
 <section id="agenda">
-    <!-- comentar
-    <div class="four wide column">
-  <div class="ui vertical segment">
-  <div class="ui middle aligned stackable divided grid container">
-  <div class="row">
-   <h2 class="ui header">
-       Agenda
-   </h2>
-  </div>
-
-   <h3 class="ui header">
-       Dia 11
-   </h3>
-   <br/>
-   <div class="calendar entry">
-       <div class="ui message">
-
-       </div>
-
-   </div>
-  </div>
-  <div class="four wide column">
-   <h3 class="ui header">
-       Dia 12
-   </h3>
-   <br/>
-  </div>
-  <div class="four wide column">
-   <h3 class="ui header">
-       Dia 13
-   </h3>
-   <br/>
-  </div>
-      </div>
-
-
-  </div>
-  -->
 
     <div class="ui container">
         <div class="ui center aligned" style="margin-bottom: 50px;">
@@ -975,6 +934,7 @@
     </div>
 </section>
 
+<!-- Atividades TSI2Market -->
 <section id="atividades" class="ui inverted stackable segment">
     <div id="label_atividades" class="ui container right aligned header" style="">
         <h1> Atividades </h1>
@@ -1021,6 +981,7 @@
     </div>
 </section>
 
+<!-- Desafios -->
 <section id="challenges">
     <div class="ui vertical stripe segment">
         <div class="ui middle aligned stackable grid container">
@@ -1056,6 +1017,7 @@
     </div>
 </section>
 
+<!-- Programa detalhado -->
 <section id="prog_details" class="ui stackable inverted segment transformed">
 
     <div class="ui container right aligned header" style="margin-bottom:100px;">
@@ -1110,6 +1072,7 @@
     </div>
 </section>
 
+<!-- Parceiros -->
 <div class="ui vertical stackable stripe segment">
     <div class="ui equal width stackable internally celled grid">
         <div class="center aligned row">
@@ -1167,6 +1130,8 @@
         </div>
     </div>
 </div>
+
+<!-- Sobre TSI2Market -->
 <section id="about">
     <div class="ui vertical inverted stripe segment">
 
@@ -1175,9 +1140,10 @@
             <div class="ui text container" id="about-text">
                 <h3 class="ui header">Sobre o TSI2MARKET</h3>
                 <p>
-                    O TSI2MARKET é um evento organizado pelos estudantes do Departamento de Sistemas de Informação e
-                    celebra
-                    este ano o seu [idade?] ano de existência.
+                    O TSI2MARKET é um evento anual organizado pelo Núcleo de Estudantes de Sistemas de Informação
+                    que procura aproximar os estudantes do mercado do trabalho, promovendo acções de formação,
+                    workshops, sessões temáticas e um espaço de networking onde os alunos podem contactar diretamente
+                    com empresas ligadas às Tecnologias de Informação.
                 </p>
                 <a class="ui large button">Ler</a>
                 <h4 class="ui horizontal header divider">
@@ -1185,7 +1151,9 @@
                 </h4>
                 <h3 class="ui header">Aposta no teu FUTURO!</h3>
                 <p>
-                    Neste evento procuramos aproximar a comunidade académica das empresas (...)!
+                    Neste evento procuramos aproximar a comunidade académica das empresas!
+                    Não percas a oportunidade de contactar diretamente com empresas de excelência
+                    e junta-te a nós numa semana dedicada inteiramente ao teu futuro profissional.
                 </p>
                 <a class="ui large button">Ler</a>
             </div>
@@ -1193,20 +1161,7 @@
     </div>
 </section>
 
-<!--
-<section id="have-fun" style="min-height: 90vh;">
-    <div class="ui centered grid" style="margin-top: 3%;">
-        <div class="center aligned row">
-            <div class="twelve wide column">
-                <div class="ui segment">
-
-                </div>
-            </div>
-        </div>
-    </div>
-
-</section>
--->
+<!-- Roster AIS -->
 <section id="ais_2017" class="def-padding ui stackable segment">
 
     <div class="ui middle aligned container">
@@ -1221,6 +1176,18 @@
     </div>
 </section>
 
+<!-- Empress -->
+<section id="empresas" class="ui stackable inverted segment">
+    <div class="ui stackable centered grid">
+        <div class="three column row">
+            <div class="row">1</div>
+            <div class="row">2</div>
+            <div class="row">3</div>
+        </div>
+    </div>
+</section>
+
+<!-- Contactos -->
 <section id="contacts" class="ui stackable segment">
     <div class="ui centered grid" style="margin-top:4%;">
         <div class="ui stackable aligned row">
@@ -1255,7 +1222,7 @@
 
 </section>
 
-
+<!-- Footer -->
 <div class="ui inverted vertical footer segment">
     <div class="ui container">
         <div class="ui stackable inverted divided equal height stackable grid">
@@ -1334,13 +1301,7 @@
     </div>
 </div>
 
-<!--<div style="min-height: 110vh;" class="landing-image">
-          <h1 class="ui header">
-              hello
-          </h1>
-      </div>
-      -->
-
+<!-- some javascript -->
 <script>
     $("#teste_content").on("click", function (event) {
         var par = $(event.target).siblings("p");
@@ -1370,86 +1331,10 @@
         $("#flyin").transition("hide");
     });
 
-    function loadJSON(callback) {
-
-        var xobj = new XMLHttpRequest();
-        xobj.overrideMimeType("application/json");
-        xobj.open("GET", "assets/roster.json", true);
-        xobj.onreadystatechange = function () {
-            if (xobj.readyState == 4 && xobj.status == "200") {
-                // Required use of an anonymous callback as .open will NOT return a value but simply returns undefined in asynchronous mode
-                callback(xobj.responseText);
-            }
-        };
-        xobj.send(null);
-    }
-
-    function init() {
-        loadJSON(function (response) {
-            // Parse JSON string into object
-            var actual_JSON = JSON.parse(response);
-
-            /**var rows = 2;
-             for (var a = 0; a < rows; ++a) {*/
-            rows = 5;
-            count_row = 1;
-            count_col = 0;
-
-            var folder = "assets/photos/";
-            var count = 0;
-            for (var item in actual_JSON) {
-                /** console.log(actual_JSON.roster);
-                 console.log(actual_JSON[item]);*/
-                for (var it in actual_JSON[item]) {
-                    var array = actual_JSON[item][it];
-                    /**console.log(actual_JSON[item][it]);
-                     console.log(array[0]);*/
-                    var uri = folder + array[0];
-                    var roster = $("#roster");
-
-
-                    var col = document.createElement("div");
-                    col.className = "four wide column";
-                    var article = document.createElement("div");
-                    article.className = "caption";
-                    var img = document.createElement("img");
-                    img.src = uri;
-                    img.className = "caption__media";
-                    var overlay = document.createElement("div");
-                    overlay.className = "caption__overlay transformed";
-                    var title = document.createElement("h4");
-                    title.className = "caption__overlay__title";
-                    title.innerHTML = array[1];
-                    var content = document.createElement("div");
-                    content.className = "caption__overlay__content";
-
-                    var cargo = document.createElement("p");
-                    cargo.innerHTML = array[2];
-
-                    var noun = document.createElement("p");
-                    noun.innerHTML = array[3];
-
-                    content.appendChild(cargo);
-                    content.appendChild(noun);
-                    overlay.appendChild(title);
-                    overlay.appendChild(content);
-
-                    article.appendChild(img);
-                    article.appendChild(overlay);
-                    col.appendChild(article);
-                    roster.append(col)
-
-                    //append( "<img class="roster-pic" src=""+ folder + val +"">" );
-                    count++;
-                }
-
-            }
-        });
-    }
-    init();
-
 
 </script>
+
+<!--Close pusher --></div>
 </body>
 
 </html>
