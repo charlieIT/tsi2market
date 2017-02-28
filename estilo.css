@@ -39,8 +39,7 @@ div {
 
 .landing-image {
     /*background: url("http://msi.dsi.uminho.pt/wp-content/uploads/2015/02/foto3.jpg") no-repeat center center fixed;*/
-
-    background: url("http://msi.dsi.uminho.pt/wp-content/uploads/2015/02/foto11.jpg") no-repeat center center fixed;
+    background: url("http://msi.dsi.uminho.pt/wp-content/uploads/2015/04/foto6-red.jpg") no-repeat center center fixed;
     background-size: cover !important;
 
     z-index: 0;
@@ -48,7 +47,7 @@ div {
 
 .landing-image-secondary {
     /*background: url("http://msi.dsi.uminho.pt/wp-content/uploads/2015/02/foto3.jpg") no-repeat center center fixed;*/
-    background: url("http://msi.dsi.uminho.pt/wp-content/uploads/2015/04/foto6-red.jpg") no-repeat center center fixed;
+    background: url("http://msi.dsi.uminho.pt/wp-content/uploads/2015/02/foto11.jpg") no-repeat center center fixed;
     background-size: cover !important;
     opcacity: .4;
     z-index: -1;
