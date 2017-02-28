@@ -1,69 +1,123 @@
 {
   "roster" : {
     "ana": [
-      "ana.png",
+      "ana.jpeg",
       "Ana Raquel",
       "Colaborador",
       "Eva"
     ],
     "andre": [
-      "andre.png",
+      "andre.jpeg",
       "André Pinheiro",
       "Colaborador",
       "kÁkÁ"
     ],
     "bruno": [
-      "bruno.png",
+      "bruno.jpeg",
       "Bruno Ferreira",
       "Colaborador",
       "TiMoN"
     ],
     "claudio": [
-      "claudio.png",
+      "claudio.jpeg",
       "Cláudio Gonçalves",
       "Colaborador",
       "Poeta"
     ],
     "david": [
-      "david.png",
+      "david.jpeg",
       "David Carvalho",
       "Conselho Fiscal",
       "Lelo"
     ],
+    "fernando": [
+      "fernando.jpeg",
+      "Fernando Magalhães",
+      "Secretário Mesa Assembleia",
+      "Rojão"
+    ],
+    "filipe": [
+      "filipe.jpeg",
+      "Filipe Lameiras",
+      "Colaborador",
+      "Partoba"
+    ],
     "helena": [
-      "helena.png",
+      "helena.jpeg",
       "Helena Silva",
       "Conselho Fiscal",
       "Leninha"
     ],
+    "joao": [
+      "joao.jpeg",
+      "João Gomes",
+      "Colaborador",
+      "Johnny"
+    ],
     "jose": [
-      "jose.png",
+      "jose.jpeg",
       "José Correia",
       "Presidente",
       "Big Boss"
     ],
     "leandro": [
-      "leandro.png",
+      "leandro.jpeg",
       "Leandro Marques",
       "Comunicação & Imagem",
       "Photoshop Ninja"
     ],
     "luis": [
-      "luis.png",
+      "luis.jpeg",
       "Luís Oliveira",
       "Vice-Presidente",
       "Bitaites"
     ],
     "maria": [
-      "maria.png",
+      "maria.jpeg",
       "Maria Oliveira",
       "Colaboradora",
       ""
     ],
+    "mariana": [
+      "mariana.jpeg",
+      "Mariana Alves",
+      "Tesoureira",
+      "Cantora"
+    ],
+    "nuno": [
+      "nuno.jpeg",
+      "Nuno Macedo",
+      "Secretário Conselho Fiscal",
+      ""
+    ],
     "oliverio": [
-      "oliverio.png",
+      "oliverio.jpeg",
       "Olivério Sousa",
       "Secretário Assembleia",
+      ""
+    ],
+    "ricardo": [
+      "ricardo.jpeg",
+      "Ricardo Araújo",
+      "Presidente Mesa Assembleia",
+      ""
+    ],
+    "rui": [
+      "rui.jpeg",
+      "Rui",
+      "Colaborador",
+      ""
+    ],
+    "tiago": [
+      "tiago.jpeg",
+      "Tiago Ribeiro",
+      "Secretário",
+      ""
+    ],
+    "vitor": [
+      "vitor.jpeg",
+      "Vítor Costa",
+      "Colaborador",
       ""
     ]
   }
