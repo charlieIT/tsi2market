@@ -1,0 +1,27 @@
+{
+  "agenda": [{
+  "day": 3,
+  "week-day":"Segunda-Feira",
+  "activities": {
+    "act": {
+        "hour":"9:30",
+        "title":"Sessão Abertura",
+        "speaker":"Docentes DSI"
+      }
+    }
+  },
+  {"day": 4,
+  "week-day":"Terça-Feira",
+  "activities": {
+    "act": {
+        "hour":"10:00",
+        "title":"Sessão de Empresas",
+        "speaker": ["Miguel Gonçalves - Spark Agency"]
+      }
+    }
+  },
+  {
+    "day":5
+  }
+  ]
+}
