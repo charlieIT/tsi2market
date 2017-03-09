@@ -82,53 +82,6 @@ init();
 
 $(document).ready(function () {
 
-
-    $(".ui.dropdown").dropdown();
-
-    $(".ui.menu a.item").click(function () {
-        $("a.item.active").removeClass("active");
-        $(this).addClass("active");
-    });
-
-    // fix menu when passed
-    $(".masthead")
-        .visibility({
-            once: false,
-            onBottomPassed: function () {
-                $(".fixed.menu").transition({
-                    animation: "bounce",
-                    duration: "1.6s"
-                });
-            },
-            onBottomPassedReverse: function () {
-                $(".fixed.menu").transition({
-                    animation: "fade out",
-                    duration: "1s"
-                });
-            }
-        });
-    // create sidebar and attach to menu open
-    $(".ui.sidebar")
-        .sidebar("attach events", ".toc.item");
-
-    $("#teste_content").find("p").addClass("v2");
-
-
-    $(function () {
-        $('a[href*="#"]:not([href="#"])').click(function () {
-            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
-                var target = $(this.hash);
-                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-                if (target.length) {
-                    $('html, body').animate({
-                        scrollTop: target.offset().top
-                    }, 1000);
-                    return false;
-                }
-            }
-        });
-    });
-
     var info = ["Desperta para o teu Futuro!", "Networking", "Workshops", "IT Talks", "Prémios", "Oportunidades",
         "Desafios", "Soft Skills"];
     var size = info.length;

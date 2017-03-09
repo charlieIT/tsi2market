@@ -39,12 +39,72 @@
     <script src="../semantic/dist/semantic.js"></script>
     <script src="../semantic/dist/semantic.min.js"></script>
     <script src="agenda.json"></script>
-    <script src="app.js"></script>
+    <script>
+        $(document)
+            .ready(function () {
+
+                $(".ui.dropdown").dropdown();
+
+                $(".ui.menu a.item").click(function () {
+                    $("a.item.active").removeClass("active");
+                    $(this).addClass("active");
+                });
+
+                $(".toc.item").click(function () {
+                    $("#sec_top").removeClass('visible');
+                    $("#sec_top").addClass('hidden');
+                });
+                $(".pusher").click(function () {
+                    $("#sec_top").removeClass('hidden');
+                    $("#sec_top").addClass('visible');
+                })
+
+                // fix menu when passed
+                $(".mhead")
+                    .visibility({
+                        once: true,
+                        onBottomPassed: function () {
+                            $(".fixed.menu").transition({
+                                animation: "bounce",
+                                duration: "1.6s"
+                            });
+                        },
+                        onBottomPassedReverse: function () {
+                            $(".fixed.menu").transition({
+                                animation: "fade out",
+                                duration: "1s"
+                            });
+                        }
+                    });
+                // create sidebar and attach to menu open
+                $(".ui.sidebar")
+                    .sidebar("attach events", ".toc.item");
+
+                $("#teste_content").find("p").addClass("v2");
+
+
+                $(function () {
+                    $('a[href*="#"]:not([href="#"])').click(function () {
+                        if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+                            var target = $(this.hash);
+                            target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                            if (target.length) {
+                                $('html, body').animate({
+                                    scrollTop: target.offset().top
+                                }, 1000);
+                                return false;
+                            }
+                        }
+                    });
+                });
+            });
+
+    </script>
 
 </head>
 <body class="transformed ">
 
-<div id="sec_top" class="ui medium top borderless fixed hidden menu">
+<div id="sec_top" class="ui medium top borderless fixed menu">
     <div class="ui container">
         <a class="toc item">
             <i class="sidebar icon "></i>
