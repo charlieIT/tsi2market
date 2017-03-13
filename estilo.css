@@ -152,6 +152,10 @@ div {
         display: none !important;
     }
 
+    .mhead .ui.fixed.menu {
+        display: block !important;
+    }
+
     .secondary.pointing.menu .item,
     .secondary.pointing.menu .menu {
         display: none;
@@ -370,8 +374,9 @@ Challenges & concursos
 
 
 #prog_details {
-    min-height: 90vh;
-    padding-top: 7%;
+    height: auto;
+    padding-top: 1.5% !important;
+    padding-bottom: 7% !important;
 }
 
 .spaced {
@@ -403,15 +408,7 @@ Challenges & concursos
     font-variant: small-caps;
 }
 
-.small-footer-logos {
-    float: left;
-    padding: 0 10px;
-}
 
-a.small-footer-logos img {
-    max-width: 80px;
-    max-height: 40px;
-}
 
 .cartaz {
     background-image: url(https://aisscum.files.wordpress.com/2016/03/untitled2.jpg?w=503&h=356);
@@ -580,28 +577,6 @@ a.small-footer-logos img {
 }
 
 
-/**
-Empresas
- */
-
-.logo-wrapper {
-    width:260px;
-    height: 184px;
-}
-
-#empresas > div.column {
-    width:100%;
-    height:100%;
-    text-align: center;
-}
-
-.logo-emp {
-    display: inline-block;
-    height: 50%;
-    vertical-align: middle;
-    width: 100%;
-}
-
 
 /**
         Footer
@@ -647,11 +622,49 @@ svg {
             rotate(180deg);
 }
 
+.small-footer-logos {
+    float: left;
+    padding: 5px 10px;
+    /** melhor margin ? */
+}
+
+a.small-footer-logos img {
+    max-width: 80px;
+    max-height: 40px;
+}
+
+#footer #footer-social-media > i {
+    margin: 10px 0px;
+
+}
 /**
     Programa
  */
 #teste_content div.ui.message:hover {
     background-color: #f4f4f4;
+}
+
+.sessao-holder div.column {
+    padding: 20px 0;
+    border-right: 1px solid white;
+}
+
+.sessao-holder div.column img {
+    width: 24px;
+    height: 24px;
+    margin:5px 10px 0 10px;
+}
+
+.sessao-holder div.column:last-of-type {
+    border: none !important;
+}
+
+div.prog-contents {
+    font-size: 18px;
+}
+
+.sessao-holder div.column:hover {
+    background-color: grey;
 }
 
 /**
@@ -669,11 +682,28 @@ h1 {
     margin:0 !important;
 }
 
+
+/** Empresas **/
+
+
+.logo-wrapper {
+    width:260px;
+    height: 184px;
+}
+
+.logo-emp {
+    display: inline-block;
+    height: 50%;
+    vertical-align: middle;
+    width: 100%;
+}
+
+
 #empresas.segment div.topline {
 
 }
 
-#empresas.segment > div.grid div.row .column {
+#empresas.segment > div.grid div.row .column.rotate1 {
     border-bottom: none !important;
     -webkit-transform:
             translateY(-20px)
@@ -693,6 +723,42 @@ h1 {
     z-index: 2;
 }
 
+
+#empresas div.row {
+    max-height: 200px;
+    min-height:200px;
+    padding: 0;
+}
+
+#label_contacto {
+    margin: 50px 0 10px 0;
+}
+
+#empresas div.column {
+    max-width:100%;
+    max-height: 80%;
+    text-align: center;
+}
+
+#empresas div.column img {
+    text-align: center;
+}
+
+#empresas .img-container {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex; /* add */
+    justify-content: center; /* add to align horizontal */
+    align-items: center; /* add to align vertical */
+}
+
+#empresas div.column img {
+    margin: auto;
+    vertical-align: middle;
+}
+
 #prog_details div.header span {
     font-size: 24px;
 }
@@ -701,6 +767,10 @@ h1 {
 }
 #teste_content div.message{
     line-height:24px;
+}
+
+#prog_details  p {
+
 }
 
 /**

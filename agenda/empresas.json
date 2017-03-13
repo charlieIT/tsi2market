@@ -1,0 +1,22 @@
+{
+  "empresas": {
+    "primeit": {
+      "img": "assets/id-primeit-positive.png"
+    },
+    "primavera": {
+      "img": "assets/primavera_logo.png"
+    },
+    "spark": {
+      "img": "assets/spark_agency.png"
+    },
+    "ccg": {
+      "img": "assets/ccg_logo.jpg"
+    },
+    "bosch": {
+      "img": "assets/bosch_logo.png"
+    },
+    "hydra": {
+      "img": "assets/hydra_logo.png"
+    }
+  }
+}

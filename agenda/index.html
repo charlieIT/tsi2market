@@ -102,8 +102,8 @@
     </script>
 
 </head>
-<body class="transformed ">
-
+<body class="">
+<div class="mhead">
 <div id="sec_top" class="ui medium top borderless fixed menu">
     <div class="ui container">
         <a class="toc item">
@@ -160,13 +160,14 @@
     -->
     </div>
 </div>
+</div>
 
 <!-- Sidebar Menu -->
 <div class="ui vertical inverted sidebar menu transformed">
     <a class="active item" href="../">TSI2Market!</a>
     <a class="item" href="#agenda">Agenda</a>
     <a class="item" href="#prog_details">Programa</a>
-    <a class="item" href="#empresas">Empresas</a>
+    <a class="item" href="../#empresas">Empresas</a>
     <a class="item">Oradores</a>
     <a href="hextris-gh-pages/index.html" class="item" target="_blank">Have Fun! :)</a>
     <a href="../#contacts" class="item">Contactos</a>
@@ -190,9 +191,8 @@
 
 <div class="pusher">
 
-    <div class="mhead"></div>
     <!-- Agenda evento -->
-    <section id="schedule" class="notebook-background">
+    <section id="schedule" class="notebook-background transformed">
         <section id="agenda">
 
             <div class="ui container">
@@ -365,13 +365,18 @@
                             <p>TBD</p>
                         </div>
                         <div class="ui secondary right aligned segment">
-                            <p>TBD</p>
+                            <p><span style="float:left">
+                                <i class="rocket icon"></i>
+                        </span>Hydra IT
+                                <span class="time-span2-inverted">14:30</span></p>
                         </div>
 
                     </div>
                     <div class="ui raised divided secondary horizontal segments">
-                        <div class="ui secondary segment">
-                            <p>TBD</p>
+                        <div class="ui blue secondary segment">
+                            <p><span class="time-span-2">16:15</span> Sessão Informal
+                                <span style="float:right;"><i class="users icon"></i></span>
+                            </p>
                         </div>
                         <div class="ui secondary right aligned segment">
                             <p>TBD</p>
@@ -380,7 +385,9 @@
                     </div>
                     <div class="ui raised divided secondary horizontal segments">
                         <div class="ui secondary segment">
-                            <p>TBD</p>
+                            <p><span class="time-span-2">18:00</span> Surprise - Made IN
+                                <span style="float:right;"><i class="gift icon"></i></span>
+                            </p>
                         </div>
                         <div class="ui secondary right aligned segment">
                             <p><span style="float:left">
@@ -392,7 +399,7 @@
                     </div>
                     <div class="ui raised divided secondary horizontal segments">
                         <div class="ui blue secondary segment">
-                            <p><span class="time-span-2">20h</span> TSI de Gala
+                            <p><span class="time-span-2">20:00</span> TSI de Gala
                                 <span style="float:right;"><i class="diamond icon"></i></span>
                             </p>
                         </div>
@@ -414,126 +421,19 @@
 
     <section id="prog_details" class="ui stackable inverted segment transformed">
 
-        <div class="ui container right aligned header" style="margin-bottom:100px;">
+        <!--<div class="ui container right aligned header" style="margin-bottom:100px;">
             <h1> Programa </h1>
         </div>
-        <div class="ui container">
-            <div id="teste_content" class="ui grid">
-                <div class="row">
-                    <div class="eight wide column">
-                        <div class="ui message teal">
-                            <i class="ui plus icon" style="float:right;"></i>
-                            <div class="header">
-                                <span>Sessão de Abertura</span>
-                                <br/>
-                                <div class="ui stackable three column grid">
-                                    <div class="column">
-                                        <i class="clock icon"></i> dia 3 - 9:00h
-                                    </div>
-                                </div>
-                            </div>
-                            <p>A sessão de abertura decorre no auditório ? da Escola de Engenharia</p>
-                        </div>
-                    </div>
-                    <div class="eight wide column">
-                        <div class="ui message olive">
-                            <i class="ui plus icon" style="float:right;"></i>
-                            <div class="header">
-                                <span>Indústria 4.0</span>
-                                <br/>
-                                <div class="ui stackable three column grid">
-                                    <div class="column">
-                                        <i class="clock icon"></i> dia 4 - 11:10h
-                                    </div>
-                                    <div class="eight wide column">
-                                        <i class="user outline icon"></i>
-                                        prof. francisco duarte
-                                    </div>
-                                </div>
-                            </div>
-                            <p>Partir 150 tábuas</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="eight wide column">
-                        <div class="ui message olive">
-                            <i class="ui plus icon" style="float:right;"></i>
-                            <div class="header">
-                                <span>Workshop Python</span>
-                                <br/>
-                                <div class="ui stackable three column grid">
-                                    <div class="column">
-                                        <i class="clock icon"></i> dia 5
-                                    </div>
-                                    <div class="six wide column">
-                                        <i class="user outline icon"></i>
-                                        prof. rui mendes
-                                    </div>
-                                </div>
-                            </div>
-                            <p class="v2">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vehicula nunc vitae justo
-                                maximus sollicitudin. Morbi porta posuere sem, eu molestie elit semper a. Proin eu magna
-                                quam. Sed laoreet blandit rutrum. Etiam sed sem mattis, imperdiet ipsum in,
-                                gravida ex. Curabitur elit nisl, blandit et velit id, finibus tincidunt augue.
-                                Suspendisse vitae fringilla libero, quis mattis ipsum. Morbi et pharetra dolor. Praesent
-                                lacinia vitae nulla eu aliquet. Duis et tortor consequat, iaculis
-                                urna non, lacinia orci. Nunc at lacus mattis, ultrices nibh quis, tristique ante.
-                                Quisque ullamcorper interdum justo, ut mattis tortor. Ut et porta dolor, ac facilisis
-                                dolor. Donec quis lacinia orci. Sed sit amet nulla mauris. In hac
-                                habitasse platea dictumst.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="eight wide column">
-                        <div class="ui message teal">
-                            <i id="teste_plus" class="ui plus icon" style="float:right;"></i>
-                            <div class="header">Linked Open Data</div>
-                            <p>a</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="eight wide column">
-                        <div class="ui message teal">
-                            <i class="ui plus icon" style="float:right;"></i>
-                            <div class="header">
-                                <span>TechPaper</span>
-                                <br/>
-                                <div class="ui stackable three column grid">
-                                    <div class="column">
-                                        <i class="clock icon"></i> Dia 5
-                                    </div>
-                                    <div class="column">
-                                        <i class="user outline icon"></i>
-                                    </div>
-                                    <div class="column">
-                                        <i class="building icon"></i>
-                                    </div>
-                                </div>
-                            </div>
-                            <p>Objetivo</p>
-                        </div>
-                    </div>
-                    <div class="eight wide column">
-                        <div class="ui message olive">
-                            <i class="ui plus icon" style="float:right;"></i>
-                            <div class="header">
-                                <span>Farewell Drinks</span>
-                                <br/>
-                                <div class="ui stackable three column grid">
-                                    <div class="column">
-                                        <i class="clock icon"></i> dia 6 - 19:00h
-                                    </div>
-                                </div>
-                            </div>
-                            <p>A</p>
-                    </div>
-                </div>
+        -->
+        <div class="ui container transformed">
+                <h1></h1>
+            <div id="prog_js">
+                <script src="programa.js">
+                </script>
             </div>
+
         </div>
-        </div>
+
     </section>
 
         <section id="extra_info" class="ui stackable segment transformed">
@@ -545,13 +445,14 @@
         </section>
 
         <!-- Footer -->
+
         <section id="footer">
             <svg id="svg1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 10" preserveAspectRatio="none">
                 <polygon points="100 0 100 10 0 10" fill="#1B1C1D"/>
             </svg>
             <div class="ui inverted vertical footer segment">
                 <div class="ui container">
-                    <div class="ui stackable inverted divided equal height stackable grid">
+                    <div class="ui stackable centered inverted divided equal height stackable grid">
                         <div class="three wide column">
                             <h4 class="ui inverted header">About</h4>
                             <div class="ui inverted link list">

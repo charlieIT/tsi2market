@@ -1,0 +1,106 @@
+{
+  "workshops": {
+    "python": {
+      "dia":"3",
+      "time": "9:30",
+      "orador": "prof. rui mendes",
+      "descricao": "workshop",
+      "img" : "../assets/python_icon.ico"
+    },
+    "android":{
+      "dia":"TBD",
+      "time":"TBD",
+      "orador":"TBD",
+      "descricao":"workshop",
+      "icon":"android icon"
+    },
+    "open data": {
+      "dia":"",
+      "time":"",
+      "orador":"ricardo lafuente",
+      "descricao":"workshop",
+      "icon":""
+    },
+    "linkedIN":{
+      "dia":"6",
+      "time":"11:00",
+      "orador":"prof. pedro pimenta",
+      "descricao":"workshop",
+      "icon":"linkedin icon"
+    }
+  },
+  "sessões temáticas": {
+    "sessão motivacional": {
+      "dia": "3",
+      "time":"10:00",
+      "orador":"miguel gonçalves",
+      "descricao":"auditório nobre - escola de egenharia",
+      "icon":"idea icon"
+    },
+    "indústria 4.0": {
+      "dia": "4",
+      "time":"11:10",
+      "orador":"prof. francisco duarte",
+      "descricao":"",
+      "icon":"settings icon"
+    },
+    "ecis 2017": {
+      "dia": "3",
+      "time":"14:30",
+      "orador":"prof. isabel ramos",
+      "descricao":"a maior conferência europeia de sistemas de informação decorrerá de 5 a 10 de Junho, em Guimarães",
+      "icon":"university icon"
+    }
+  },
+  "concursos": {
+
+  },
+  "desafios": {
+    "techpaper": {
+        "dia": "",
+        "time":"",
+        "orador":"n/a",
+        "descricao":"preparado para um pedipaper tecnológico? Um desafio informal que pretende pôr à prova as tuas capacidades!",
+        "icon":"map icon"
+    }
+  },
+  "networking" :{
+    "dia 3": {
+      "time": "11:30/15:00",
+      "dia":"3",
+      "empresas":"spark agency",
+      "descricao":"",
+      "icon":"users icon"
+    },
+    "dia 4": {
+      "time": "",
+      "dia":"4",
+      "empresas":"TBD",
+      "descricao":"",
+      "icon":"users icon"
+    },
+    "dia 5": {
+      "time": "10:00",
+      "dia":"5",
+      "empresas":"TBD",
+      "descricao":"",
+      "icon":"users icon"
+    },
+    "dia 6": {
+      "time": "10:00",
+      "dia":"6",
+      "empresas":"hydra it",
+      "descricao":"",
+      "icon":"users icon"
+    }
+  },
+  "entreternimento": {
+    "tsi de gala": {
+        "dia": "5",
+        "time":"20:00",
+        "orador":"",
+        "descricao":"jantar de gala do tsi2market",
+        "icon":"cocktail icon"
+    }
+  }
+}

@@ -16,6 +16,7 @@
               carreira">
     <meta property="og:url" content="http://aissc.uminho.pt/">
     <meta property="og:type" content="website">
+    <meta property="og:image" content="assets/mg_tsi_17_og.jpeg">
     <meta name="robots" content="index, follow">
     <meta name="owner" content="AIS SC UMinho">
     <meta name="copyright" content="Luís Oliveira">
@@ -108,8 +109,8 @@
 
         <a class="active item transformed" href="http://tsi2market.dsi.uminho.pt">TSI2Market!</a>
         <a class="item" href="agenda/">Agenda</a>
+        <a class="item" href="#empresas">Empresas</a>
         <a class="item">TechPaper</a>
-        <a class="item">Oradores</a>
         <div id="social_media" class="item">
             Redes Sociais
             <div class="ui floating dropdown">
@@ -261,24 +262,8 @@
                 <h1> Empresas </h1>
             </div>
 
-            <!--<div class="topline"></div>-->
-            <div class="ui stackable centered grid">
-                <div class="four column row rotate1">
-                    <div class="column">
-                        <img src="assets/id-primeit-positive.png">
-                    </div>
-                    <div class="column">
-                        <img class="" src="assets/bosch_logo.png" alt="..">
-                    </div>
-                    <div class="column" style="padding-top: 30px;">
-                        <img src="assets/spark_agency.png">
-                    </div>
-                    <div class="column" style="padding-top:30px;">
-                        <img src="assets/ibm_logo.png">
-                    </div>
-                </div>
-                <div class="three column row">
-                </div>
+            <div id="empresas-js">
+                <script src="empresas.js"></script>
             </div>
             <div id="label_contacto" class="ui container left aligned header transformed">
                 <div class="ui four column stackable grid">
@@ -293,15 +278,16 @@
                         </a>
                     </div>
                     <div class="column">
-                        <i class="phone icon"></i>
-                        José Correia 919 844 483
+                        <i class="envelope icon"></i>
+                        José Correia jmcorreia1995@gmail.com
                     </div>
                     <div class="column">
-                        <i class="phone icon"></i>
-                        Luís Oliveira 915 366 659
+                        <i class="envelope icon"></i>
+                        Luís Oliveira luisv.moliveira@gmail.com
                     </div>
                 </div>
             </div>
+
         </section>
 
         <!-- Sobre TSI2Market -->
@@ -405,7 +391,7 @@
                                              src="https://aisscum.files.wordpress.com/2014/07/eeng.gif" alt="..">
                                     </a>
                                 </div>
-                                <div class="column">
+                                <!--<div class="column">
                                     <a href="http://yme.pt/" target="_blank">
                                         <img class="ui rounded centered fluid image"
                                              src="
@@ -413,7 +399,7 @@
                                              alt="..."/>
                                     </a>
                                 </div>
-
+                                -->
                             </div>
                         </div>
                     </div>
@@ -569,7 +555,7 @@
             </svg>
             <div class="ui inverted vertical footer segment">
                 <div class="ui container">
-                    <div class="ui stackable inverted divided equal height stackable grid">
+                    <div class="ui stackable centered inverted divided equal height stackable grid">
                         <div class="three wide column">
                             <h4 class="ui inverted header">About</h4>
                             <div class="ui inverted link list">
@@ -587,7 +573,7 @@
                         </div>
                         <div class="three wide column">
                             <h4 class="ui inverted header">Social Media</h4>
-                            <div class="ui inverted link list">
+                            <div class="ui inverted link list" id="footer-social-media">
                                 <a href="https://www.facebook.com/AISSC.UMINHO/?fref=ts" target="_blank">
                                     <i class="big disabled facebook blue icon"></i>
                                 </a>

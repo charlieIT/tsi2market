@@ -1,27 +1,99 @@
 {
-  "agenda": [{
-  "day": 3,
-  "week-day":"Segunda-Feira",
-  "activities": {
-    "act": {
-        "hour":"9:30",
-        "title":"Sessão Abertura",
-        "speaker":"Docentes DSI"
-      }
+  "3" : {
+    "1": {
+      "time": "9:00",
+      "title": "recepção",
+      "icon": "suitcase icon",
+      "orador": "docentes dsi",
+      "empresa": ""
+      },
+    "2": {
+      "time":"10:00",
+      "title":"sessão temática",
+      "icon":"idea icon",
+      "orador":"miguel gonçalves",
+      "empresa":"spark agency"
+    },
+    "3": {
+      "time":"11:30",
+      "title":"networking",
+      "icon":"users icon",
+      "orador":"",
+      "empresa":""
+    },
+    "4": {
+      "time":"12:30",
+      "title":"almoço",
+      "icon":"",
+      "orador":"",
+      "empresa":""
+    },
+    "5": {
+      "time":"14:00",
+      "title":"ecis 2017",
+      "icon":"university icon",
+      "orador":"dr. Isabel Ramos",
+      "empresa":"ais"
     }
   },
-  {"day": 4,
-  "week-day":"Terça-Feira",
-  "activities": {
-    "act": {
-        "hour":"10:00",
-        "title":"Sessão de Empresas",
-        "speaker": ["Miguel Gonçalves - Spark Agency"]
-      }
+  "4": {
+    "1": {
+      "time":"9:00",
+      "title":"sessão temática",
+      "icon":"rocket icon",
+      "orador":"",
+      "empresa":""
+    },
+    "2": {
+      "time":"11:10",
+      "title":"indústria 4.0",
+      "icon":"settings icon",
+      "orador":"prof. francisco duarte",
+      "empresa":"dsi"
+    },
+    "3": {
+      "time":"13:00",
+      "title":"almoço",
+      "icon":"settings icon",
+      "orador":"",
+      "empresa":""
     }
   },
-  {
-    "day":5
+  "5": {
+    "1" : {
+      "time":"9:30",
+      "title":"Workshop Python",
+      "icon":"settings icon",
+      "orador":"prof. rui mendes",
+      "empresa":"dei uminho"
+    },
+    "2": {
+      "time":"11:00",
+      "title":"networking",
+      "icon":"users icon",
+      "orador":"",
+      "empresa":""
+    },
+    "5": {
+      "time":"16:15",
+      "title":"sessão informal",
+      "icon":"users icon",
+      "orador":"",
+      "empresa":""
+    },
+    "6": {
+      "time":"18:00",
+      "title":"surprise - made IN",
+      "icon":"help icon",
+      "orador":"?",
+      "empresa":"?"
+    },
+    "7": {
+      "time":"20:00",
+      "title":"tsi de gala",
+      "icon":"cocktail icon",
+      "orador":"",
+      "empresa":""
+    }
   }
-  ]
 }

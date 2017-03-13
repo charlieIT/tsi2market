@@ -112,3 +112,4 @@ $(document).ready(function () {
      $('#main_info').text(info[random]);
      }, 2000)*/
 });
+
