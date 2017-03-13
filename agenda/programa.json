@@ -8,16 +8,16 @@
       "img" : "../assets/python_icon.ico"
     },
     "android":{
-      "dia":"TBD",
-      "time":"TBD",
-      "orador":"TBD",
+      "dia":"tbd",
+      "time":"tbd",
+      "orador":"tbd",
       "descricao":"workshop",
       "icon":"android icon"
     },
     "open data": {
       "dia":"",
       "time":"",
-      "orador":"ricardo lafuente",
+      "orador":"rl",
       "descricao":"workshop",
       "icon":""
     },
@@ -37,23 +37,29 @@
       "descricao":"auditório nobre - escola de egenharia",
       "icon":"idea icon"
     },
-    "indústria 4.0": {
-      "dia": "4",
-      "time":"11:10",
-      "orador":"prof. francisco duarte",
-      "descricao":"",
-      "icon":"settings icon"
-    },
     "ecis 2017": {
       "dia": "3",
       "time":"14:30",
       "orador":"prof. isabel ramos",
       "descricao":"a maior conferência europeia de sistemas de informação decorrerá de 5 a 10 de Junho, em Guimarães",
       "icon":"university icon"
+    },
+    "indústria 4.0": {
+      "dia": "4",
+      "time":"11:10",
+      "orador":"prof. francisco duarte",
+      "descricao":"",
+      "icon":"settings icon"
     }
   },
   "concursos": {
-
+    "o reporter és tu": {
+      "dia": "3 a 6",
+      "time": "n/a",
+      "orador": "todos os participantes",
+      "descricao": "neste tsi2market o repórter és tu! A melhor fotografia do evento ganha um prémio :)",
+      "icon": "camera icon"
+    }
   },
   "desafios": {
     "techpaper": {
@@ -75,14 +81,14 @@
     "dia 4": {
       "time": "",
       "dia":"4",
-      "empresas":"TBD",
+      "empresas":"tbd",
       "descricao":"",
       "icon":"users icon"
     },
     "dia 5": {
       "time": "10:00",
       "dia":"5",
-      "empresas":"TBD",
+      "empresas":"tbd",
       "descricao":"",
       "icon":"users icon"
     },
