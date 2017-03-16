@@ -37,7 +37,7 @@ function init() {
 
 
         for (var item in actual_JSON) {
-            console.log(item);
+            //console.log(item);
             /**
              * Nome das atividades -> workshops, sessões, etc!
              * @type {string}
@@ -119,7 +119,7 @@ function init() {
                 sessao_title.appendChild(sessao_icon);
                 var sessao_txt = document.createElement("span");
                 sessao_txt.innerHTML = sessao;
-                console.log("->"+sessao);
+                //console.log("->"+sessao);
                 sessao_title.appendChild(sessao_txt);
                 sessao_coluna.appendChild(sessao_title);
 
@@ -134,6 +134,7 @@ function init() {
 
                 if(item != "networking" && item != "entreternimento") {
                     /** Orador / formador */
+
                     var orador = document.createElement("p");
                     var orador_txt = document.createElement("span");
                     orador_txt.innerHTML = conteudo_sessao.orador;
@@ -141,13 +142,19 @@ function init() {
                     orador_icon.className = "user icon";
                     orador.appendChild(orador_icon);
                     orador.appendChild(orador_txt);
+
+                    sessao_contents.appendChild(orador);
                 }
                 /** Dia + hora */
                 var time = document.createElement("p");
                 var time_icon = document.createElement("i");
                 time_icon.className = "clock icon";
                 time_txt = document.createElement("span");
-                time_txt.innerHTML = "dia " + conteudo_sessao.dia + " - " + conteudo_sessao.time;
+                if (conteudo_sessao.time != "") {
+                    time_txt.innerHTML = "dia " + conteudo_sessao.dia + " - " + conteudo_sessao.time;
+                } else {
+                    time_txt.innerHTML = "dia " + conteudo_sessao.dia;
+                }
                 time.appendChild(time_icon);
                 time.appendChild(time_txt);
 
@@ -162,7 +169,7 @@ function init() {
                 }
 
                 if (conteudo_sessao.empresas) {
-                    console.log("net -> ");
+                    //console.log("net -> ");
                     var empresas = document.createElement("p");
                     var emp_icon = document.createElement("i");
                     emp_icon.className = "building icon";
@@ -178,7 +185,6 @@ function init() {
                  * organizar conteudos e adicionar à div principal
                  */
 
-                sessao_contents.appendChild(orador);
                 sessao_contents.appendChild(time);
                 if(empresas) {
                     sessao_contents.appendChild(empresas);
@@ -187,7 +193,7 @@ function init() {
                 sessao_coluna.appendChild(sessao_contents);
                 row.appendChild(sessao_coluna);
                 sessao_holder.appendChild(row);
-                console.log(sessao_coluna);
+                //console.log(sessao_coluna);
                 /*sessao_holder.appendChild(sessao_contents);*/
                 /* prog_container.append(sessao_contents);*/
                 prog_container.append(sessao_holder);

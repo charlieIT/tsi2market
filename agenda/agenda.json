@@ -1,5 +1,5 @@
 {
-  "3" : {
+  "3": {
     "1": {
       "time": "9:00",
       "title": "recepção",
@@ -9,7 +9,7 @@
       },
     "2": {
       "time":"10:00",
-      "title":"sessão temática",
+      "title":"sessão motivacional",
       "icon":"idea icon",
       "orador":"miguel gonçalves",
       "empresa":"spark agency"
@@ -32,15 +32,22 @@
       "time":"14:00",
       "title":"ecis 2017",
       "icon":"university icon",
-      "orador":"dr. Isabel Ramos",
-      "empresa":"ais"
+      "orador":"dr. isabel ramos",
+      "empresa":""
+    },
+    "8": {
+      "time":"20:00",
+      "title":"concurso",
+      "icon":"trophy icon",
+      "orador":"",
+      "empresa":""
     }
   },
   "4": {
     "1": {
       "time":"9:00",
-      "title":"sessão temática",
-      "icon":"rocket icon",
+      "title":"",
+      "icon":"",
       "orador":"",
       "empresa":""
     },
@@ -49,23 +56,38 @@
       "title":"indústria 4.0",
       "icon":"settings icon",
       "orador":"prof. francisco duarte",
-      "empresa":"dsi"
+      "empresa":""
     },
     "3": {
       "time":"13:00",
       "title":"almoço",
-      "icon":"settings icon",
+      "icon":"",
       "orador":"",
       "empresa":""
+    },
+    "4": {
+      "time":"14:00",
+      "title":"sessão de empresa",
+      "icon":"building icon",
+      "orador":"",
+      "empresa":"prime it"
+    },
+    "5": {
+      "time":"16:15",
+      "title":"realidade aumentada & virtual",
+      "icon":"idea icon",
+      "orador":"",
+      "empresa":"ccg"
     }
   },
   "5": {
     "1" : {
       "time":"9:30",
-      "title":"Workshop Python",
-      "icon":"settings icon",
+      "title":"workshop python",
+      "icon":"",
       "orador":"prof. rui mendes",
-      "empresa":"dei uminho"
+      "empresa":"",
+      "note":"python"
     },
     "2": {
       "time":"11:00",
@@ -74,26 +96,84 @@
       "orador":"",
       "empresa":""
     },
+    "3": {
+      "time":"14:00",
+      "title":"sessão de empresa",
+      "icon":"building icon",
+      "orador":"",
+      "empresa":"primavera"
+    },
+    "4": {
+      "time":"13:00",
+      "title":"almoço",
+      "icon":"",
+      "orador":"",
+      "empresa":""
+    },
     "5": {
+      "time":"14:00",
+      "title":"transformação digital",
+      "icon":"idea icon",
+      "orador":"",
+      "empresa":"primavera"
+    },
+    "6": {
       "time":"16:15",
       "title":"sessão informal",
       "icon":"users icon",
       "orador":"",
       "empresa":""
     },
-    "6": {
+    "7": {
       "time":"18:00",
-      "title":"surprise - made IN",
+      "title":"surprise made in",
       "icon":"help icon",
       "orador":"?",
       "empresa":"?"
     },
-    "7": {
+    "8": {
       "time":"20:00",
       "title":"tsi de gala",
       "icon":"cocktail icon",
       "orador":"",
       "empresa":""
+    }
+  },
+  "6": {
+    "1": {
+      "time": "11:00",
+      "title": "workshop linkedin",
+      "icon": "linkedin icon",
+      "orador": "prof. pedro pimenta",
+      "empresa": ""
+    },
+    "2": {
+      "time": "13:00",
+      "title": "almoço",
+      "icon": "",
+      "orador": "",
+      "empresa": ""
+    },
+    "3": {
+      "time": "14:30",
+      "title": "sessão de empresas",
+      "icon": "building icon",
+      "orador": "",
+      "empresa": "hydra it, retail consult"
+    },
+    "4": {
+      "time": "16:15",
+      "title": "apresentações challenge@tsi",
+      "icon": "map icon",
+      "orador": "",
+      "empresa": ""
+    },
+    "5": {
+      "time": "18:00",
+      "title": "sessão de encerramento",
+      "icon": "power icon",
+      "orador": "",
+      "empresa": ""
     }
   }
 }

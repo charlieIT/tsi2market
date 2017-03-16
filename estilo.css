@@ -293,7 +293,6 @@ div {
 
 #schedule span.time-span-2 {
     font-size: 24px;
-
     border-bottom: 1px solid #00B5AD !important;
 }
 
@@ -334,6 +333,14 @@ div {
     padding-top: 5%;
     padding-bottom: 5%;
     min-height: 80vh;
+}
+
+#agenda div.row {
+    margin: 10px 0;
+}
+
+#agenda div.segment {
+    font-size: 24px;
 }
 
 /**
@@ -660,7 +667,7 @@ a.small-footer-logos img {
 }
 
 div.prog-contents {
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .sessao-holder div.column:hover {

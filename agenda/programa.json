@@ -1,23 +1,24 @@
 {
   "workshops": {
     "python": {
-      "dia":"3",
+      "dia":"5",
       "time": "9:30",
       "orador": "prof. rui mendes",
       "descricao": "workshop",
-      "img" : "../assets/python_icon.ico"
+      "img" : "../assets/python_icon.ico",
+      "note":"python"
     },
     "android":{
-      "dia":"tbd",
-      "time":"tbd",
-      "orador":"tbd",
+      "dia":"tba",
+      "time":"tba",
+      "orador":"tba",
       "descricao":"workshop",
       "icon":"android icon"
     },
     "open data": {
-      "dia":"",
+      "dia":"tba",
       "time":"",
-      "orador":"rl",
+      "orador":"tba",
       "descricao":"workshop",
       "icon":""
     },
@@ -34,7 +35,7 @@
       "dia": "3",
       "time":"10:00",
       "orador":"miguel gonçalves",
-      "descricao":"Powered by: Spark Agency <br/>auditório nobre - escola de egenharia",
+      "descricao":"Powered by: Spark Agency <br/>",
       "icon":"idea icon"
     },
     "ecis 2017": {
@@ -54,7 +55,7 @@
     "sessão informal" : {
       "dia": "5",
       "time":"16:15",
-      "orador":"tbd",
+      "orador":"carlos costa, filipe portela",
       "descricao":"uma sessão informal com ex alunos do universo tsi@uminho",
       "icon":"users icon"
     }
@@ -62,7 +63,7 @@
   "concursos": {
     "o reporter és tu": {
       "dia": "3 a 6",
-      "time": "n/a",
+      "time": "",
       "orador": "todos os participantes",
       "descricao": "neste tsi2market o repórter és tu! A melhor fotografia do evento ganha um prémio :)",
       "icon": "camera icon"
@@ -72,7 +73,7 @@
     "techpaper": {
         "dia": "",
         "time":"",
-        "orador":"n/a",
+        "orador":"todos os participantes",
         "descricao":"preparado para um pedipaper tecnológico? Um desafio informal que pretende pôr à prova as tuas capacidades!",
         "icon":"map icon"
     }
@@ -88,21 +89,21 @@
     "dia 4": {
       "time": "",
       "dia":"4",
-      "empresas":"tbd",
+      "empresas":"ccg, prime it",
       "descricao":"",
       "icon":"users icon"
     },
     "dia 5": {
       "time": "10:00",
       "dia":"5",
-      "empresas":"tbd",
+      "empresas":"primavera",
       "descricao":"",
       "icon":"users icon"
     },
     "dia 6": {
       "time": "10:00",
       "dia":"6",
-      "empresas":"hydra it",
+      "empresas":"hydra it, retail consult",
       "descricao":"",
       "icon":"users icon"
     }
