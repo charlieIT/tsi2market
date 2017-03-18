@@ -149,7 +149,7 @@ div {
     /*
     overwrite luis, used to be only .ui.fixed.menu (...)
     */
-    .ui.fixed.menu *:not(a.toc.item) {
+    .page .ui.fixed.menu *:not(a.toc.item) {
         display: none !important;
     }
 
@@ -452,15 +452,15 @@ Challenges & concursos
     border-bottom: 1px solid #337ab7;
 }
 
-#sec_top a.toc.item {
+.page #sec_top a.toc.item {
     display:none;
 }
 
 @media screen and (max-width: 720px) {
-    #sec_top a.toc.item {
+    .page #sec_top a.toc.item {
         display:block;
     }
-    #sec_top a:not(.toc), #sec_top div.item  {
+    .page #sec_top a:not(.toc), #sec_top div.item  {
         display:none;
 
 }
