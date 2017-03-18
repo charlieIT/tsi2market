@@ -61,6 +61,15 @@
                     $(this).addClass("active");
                 });
 
+                $(".toc.item").click(function () {
+                    $("#sec_top").removeClass('visible');
+                    $("#sec_top").addClass('hidden');
+                });
+                $(".pusher").click(function () {
+                    $("#sec_top").removeClass('hidden');
+                    $("#sec_top").addClass('visible');
+                });
+
                 // fix menu when passed
                 $(".masthead")
                     .visibility({
@@ -107,8 +116,11 @@
 <body class="">
 
 <!-- Following Menu -->
-<div id="sec_top" class="ui medium top borderless fixed hidden menu ">
+<div id="sec_top" class="ui medium top borderless fixed hidden menu">
     <div class="ui container">
+        <a class="toc item">
+            <i class="sidebar icon "></i>
+        </a>
         <a class="active item transformed" href="index.html">TSI2Market!</a>
         <a class="item" href="agenda/">Agenda</a>
         <a class="item" href="#empresas">Empresas</a>
@@ -139,7 +151,6 @@
                 </div>
             </div>
         </div>
-
         <div id="flyin" class="ui secondary menu">
             <a class="item" href="http://aissc.dsi.uminho.pt/" target="_blank">
                 <i class="teal home icon"></i> AIS.SC@DSI
@@ -167,7 +178,7 @@
 <div class="ui vertical inverted sidebar menu transformed">
     <a class="active item" href="#main">TSI2Market!</a>
     <a class="item" href="agenda/">Agenda</a>
-    <a class="item" href="#prog_details">Programa</a>
+    <a class="item" href="agenda/#prog_details">Programa</a>
     <a class="item" href="#empresas">Empresas</a>
     <a class="item" href="#challenges">Desafios</a>
     <a href="#contacts" class="item">Contactos</a>
@@ -256,10 +267,11 @@
                                 Departamento de Sistemas de Informação
                             </h2>
                             <br/>
+                            <!--
                             <h2 id="main_info" class="hidden-desktop">
 
                             </h2>
-
+    -->
                         </div>
                     </div>
                     <!--
