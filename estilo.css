@@ -41,7 +41,6 @@ div {
     font-family: "Audimat", fantasy !important;
 }
 
-
 /**
     Backgrounds & body
  */
@@ -70,7 +69,6 @@ div {
     background: url(assets/logo_ais_trp.png) no-repeat center center fixed;
     background-size: cover !important;
 }
-
 
 /**
     Main menu
@@ -214,25 +212,42 @@ div {
 
 .notebook-background {
     background-color: #fff;
-    background-image:
-            linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
-            linear-gradient(#eee .1em, transparent .1em);
+    background-image: linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
+    linear-gradient(#eee .1em, transparent .1em);
     background-size: 100% 1.2em;
 }
 
-
 #main {
-    min-height: 100vh;
+    min-height:100vh;
+    height: auto;
+    padding-top: 1.5%;
+    background: url("assets/cartaz-tsi-bg_bw.png") no-repeat 0 0px;
+    background-size: 100% !important;
 }
 
 #main_info {
     margin-left: -10px;
+    min-height: 100px;
 }
 
 .rotate-container {
     display: inline-block;
     width: 100%;
     height: 100%;
+}
+
+.cartaz-bg {
+   /* background: url("assets/cartaz-tsi-bg_bw.png") no-repeat 0 0px;
+    background-size: 100% !important;*/
+}
+
+#main_text {
+    padding: 3% 0 3% 0;
+}
+
+#bg {
+    height: auto;
+    max-height: 90vh;
 }
 
 /**
@@ -256,11 +271,12 @@ div {
 #schedule div.segment:hover {
     /*background-color:#f4f4f4;*/
     background-color: #337ab7;
-    color:white;
+    color: white;
 
     /*color: white;*/
-/*transform: scale(1.1);*/
+    /*transform: scale(1.1);*/
 }
+
 #schedule div.segment:hover p {
     /*text-align: center;
     transform: scale(1.3);
@@ -298,7 +314,7 @@ div {
 
 #schedule span.time-span2-inverted {
     font-size: 24px;
-    border-bottom: 1px solid #00B5AD!important;
+    border-bottom: 1px solid #00B5AD !important;
 }
 
 #schedule span.time-span-inverted {
@@ -309,15 +325,19 @@ div {
     border-bottom-left-radius: 45px;
 }
 
-.ag-icon{
-    min-width:32px;
-    max-width:32px;
+.ag-icon {
+    min-width: 32px;
+    max-width: 32px;
     min-height: 32px;
-    max-height:32px;
+    max-height: 32px;
 }
 
 .ag-icon:hover {
-    color:white;
+    color: white;
+}
+
+.ag-img {
+
 }
 
 #agenda-page > .ui.segment {
@@ -363,7 +383,6 @@ div {
     padding: 3% 0 10% 0;
 }
 
-
 /**
 Challenges & concursos
  */
@@ -374,16 +393,10 @@ Challenges & concursos
 #challenges .ui.segments div.ui.segment {
     font-size: 18px;
 }
+
 #challenges .ui.segments div.ui.segment:hover {
     background-color: #1e4b6e;
     color: white;
-}
-
-
-#prog_details {
-    height: auto;
-    padding-top: 1.5% !important;
-    padding-bottom: 7% !important;
 }
 
 .spaced {
@@ -406,6 +419,10 @@ Challenges & concursos
     color: #337ab7;
 }
 
+.my-darken-blue {
+    background-color: #1E4B6E !important;
+}
+
 .my-gray {
     background-color: gray !important;
 }
@@ -414,8 +431,6 @@ Challenges & concursos
     /*text-transform: uppercase;*/
     font-variant: small-caps;
 }
-
-
 
 .cartaz {
     background-image: url(https://aisscum.files.wordpress.com/2016/03/untitled2.jpg?w=503&h=356);
@@ -426,7 +441,7 @@ Challenges & concursos
     font-variant: small-caps;
     min-height: 50px;
     font-size: 18px;
-    border-bottom: 1px solid  #337ab7;
+    border-bottom: 1px solid #337ab7;
 }
 
 #sec_top a, .menu, .item, .menu, #social_media {
@@ -434,15 +449,15 @@ Challenges & concursos
 }
 
 #sec_top .item:hover {
-   /* box-shadow: 5px 0px 5px white;*/
-   /* -webkit-transition: all 200ms ease-in;
-    -webkit-transform: scale(1.02);
-    -ms-transition: all 200ms ease-in;
-    -ms-transform: scale(1.02);
-    -moz-transition: all 200ms ease-in;
-    -moz-transform: scale(1.02);
-    transition: all 200ms ease-in;
-    transform: scale(1.02);*/
+    /* box-shadow: 5px 0px 5px white;*/
+    /* -webkit-transition: all 200ms ease-in;
+     -webkit-transform: scale(1.02);
+     -ms-transition: all 200ms ease-in;
+     -ms-transform: scale(1.02);
+     -moz-transition: all 200ms ease-in;
+     -moz-transform: scale(1.02);
+     transition: all 200ms ease-in;
+     transform: scale(1.02);*/
 }
 
 #about-text {
@@ -454,7 +469,6 @@ Challenges & concursos
     color: white !important;
     background-color: rgba(0, 0, 0, .4);
 }
-
 
 /**
     Atividades
@@ -548,7 +562,7 @@ Challenges & concursos
 }
 
 .caption__overlay__title {
-    margin:0;
+    margin: 0;
     padding: 25px 0px 25px 0px;
     transform: translateY(calc(-100% - 10px)); /* +10px overlay padding */
     transition: transform .35s ease-out;
@@ -583,28 +597,26 @@ Challenges & concursos
     transform: translateZ(0);
 }
 
-
-
 /**
         Footer
  */
 
 #footer .footer {
-   /* border-style: solid;
-    border-width: 90px 100vw 0 0;
-    border-color: yellow black transparent transparent;
-    transform: scale(1.0001);*/
+    /* border-style: solid;
+     border-width: 90px 100vw 0 0;
+     border-color: yellow black transparent transparent;
+     transform: scale(1.0001);*/
     z-index: 0;
-   /* background-size: 20px 20px;
-    background-image:
-            -webkit-repeating-linear-gradient(-45deg, black, black 1px, transparent 1px, transparent 14px);
-    background-image:
-            -moz-repeating-linear-gradient(-45deg, black, yellow 1px, transparent 1px, transparent 14px);
-    background-image:
-            -o-repeating-linear-gradient(-45deg, black, yellow 1px, transparent 1px, transparent 14px);
-    background-image:
-            repeating-linear-gradient(-45deg, black, yellow 1px, transparent 1px, transparent 14px);
-            */
+    /* background-size: 20px 20px;
+     background-image:
+             -webkit-repeating-linear-gradient(-45deg, black, black 1px, transparent 1px, transparent 14px);
+     background-image:
+             -moz-repeating-linear-gradient(-45deg, black, yellow 1px, transparent 1px, transparent 14px);
+     background-image:
+             -o-repeating-linear-gradient(-45deg, black, yellow 1px, transparent 1px, transparent 14px);
+     background-image:
+             repeating-linear-gradient(-45deg, black, yellow 1px, transparent 1px, transparent 14px);
+             */
 }
 
 svg {
@@ -615,23 +627,22 @@ svg {
 }
 
 #svg2 {
-    -webkit-transform:
-            translateY(0)
-            translateX(0)
-            rotate(180deg);
+    -webkit-transform: translateY(0) translateX(0) rotate(180deg);
 }
 
 #svg3 {
     background: #1e4b6e;
-    -webkit-transform:
-            translateY(0)
-            translateX(0)
-            rotate(180deg);
+    -webkit-transform: translateY(0) translateX(0) rotate(180deg);
 }
 
 .small-footer-logos {
     float: left;
     padding: 5px 10px;
+    /** melhor margin ? */
+}
+.small-footer-logos:first-child {
+    float: left;
+    padding: 5px 0px;
     /** melhor margin ? */
 }
 
@@ -642,11 +653,11 @@ a.small-footer-logos img {
 
 #footer #footer-social-media > i {
     margin: 10px 0px;
-
 }
-/**
-    Programa
- */
+
+    /**
+        Programa
+     */
 #teste_content div.ui.message:hover {
     background-color: #f4f4f4;
 }
@@ -654,12 +665,20 @@ a.small-footer-logos img {
 .sessao-holder div.column {
     padding: 20px 0;
     border-right: 1px solid white;
+    border-bottom: 1px transparent;
+}
+
+@media (max-width:770px) {
+    .sessao-holder div.column {
+        border-right: 1px transparent;
+        border-bottom: 1px solid white;
+    }
 }
 
 .sessao-holder div.column img {
     width: 24px;
     height: 24px;
-    margin:5px 10px 0 10px;
+    margin: 5px 10px 0 10px;
 }
 
 .sessao-holder div.column:last-of-type {
@@ -674,6 +693,12 @@ div.prog-contents {
     background-color: grey;
 }
 
+#prog_details {
+    height: auto;
+    padding-top: 1.5% !important;
+    padding-bottom: 7% !important;
+}
+
 /**
 Overwrite
  */
@@ -686,15 +711,13 @@ h1 {
     box-shadow: none !important;
     border: none !important;
     border-radius: 0px !important;
-    margin:0 !important;
+    margin: 0 !important;
 }
-
 
 /** Empresas **/
 
-
 .logo-wrapper {
-    width:260px;
+    width: 260px;
     height: 184px;
 }
 
@@ -705,35 +728,27 @@ h1 {
     width: 100%;
 }
 
-
 #empresas.segment div.topline {
 
 }
 
 #empresas.segment > div.grid div.row .column.rotate1 {
     border-bottom: none !important;
-    -webkit-transform:
-            translateY(-20px)
-            translateX(5px)
-            rotate(-7deg);
+    -webkit-transform: translateY(-20px) translateX(5px) rotate(-7deg);
     position: relative;
     z-index: 2;
 }
 
 #empresas.segment > div.grid div.row.rotate2 {
     border-bottom: none !important;
-    -webkit-transform:
-            translateY(-20px)
-            translateX(5px)
-            rotate(-7deg);
+    -webkit-transform: translateY(-20px) translateX(5px) rotate(-7deg);
     position: relative;
     z-index: 2;
 }
 
-
 #empresas div.row {
     max-height: 200px;
-    min-height:200px;
+    min-height: 200px;
     padding: 0;
 }
 
@@ -742,13 +757,19 @@ h1 {
 }
 
 #empresas div.column {
-    max-width:100%;
+    max-width: 100%;
     max-height: 80%;
     text-align: center;
+    margin: 0 2%;
+    padding: 0 2%;
 }
 
-#empresas div.column img {
-    text-align: center;
+@media(max-width:1100px) {
+    #empresas div.column {
+        width:auto;
+        margin: 0 5%;
+        max-width: unset;
+    }
 }
 
 #empresas .img-container {
@@ -763,20 +784,38 @@ h1 {
 
 #empresas div.column img {
     margin: auto;
+    text-align: center;
     vertical-align: middle;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+/**
+Poderia ser uma solução para ter todas img do mesmo tamanho
+ */
+#empresas div.column .img {
+    position: relative;
+    width:  300px;
+    height: 300px;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+
 }
 
 #prog_details div.header span {
     font-size: 24px;
 }
+
 #prog_details div.header {
     font-size: 18px;
 }
-#teste_content div.message{
-    line-height:24px;
+
+#teste_content div.message {
+    line-height: 24px;
 }
 
-#prog_details  p {
+#prog_details p {
 
 }
 
@@ -795,10 +834,44 @@ Tricky
     display: none;
 }
 
+.hidden-desktop {
+    display: none;
+}
+.visible-mobile {
+    visibility: hidden;
+}
+
+@media (max-width: 720px) {
+    .hidden-desktop {
+        display: block;
+    }
+
+    #main_text {
+        margin-top:30%;
+    }
+
+    .hidden-mobile {
+        visibility: hidden;
+    }
+
+    .hidden-mobile h2, .hidden-mobile h1  {
+        visibility: visible;
+    }
+
+    .visible-mobile {
+        display: block;
+        visibility: visible;
+    }
+    #main, #bg {
+        height: auto;
+        max-height: 80vh;
+    }
+
+}
+
 /**
     Media queries
  */
-
 
 @media (max-width: 1200px) {
     /*.caption, .caption__media {
@@ -809,7 +882,6 @@ Tricky
         -moz-border-radius: 120px;
     }
     */
-
     .caption__overlay__title {
         font-size: 10px;
     }
@@ -817,7 +889,6 @@ Tricky
     .caption__overlay__content {
         font-size: 8px;
     }
-
 
     #roster div.column {
         /*max-width: 125px;*/
@@ -831,7 +902,6 @@ Tricky
         margin: 40px 0;
         padding: 20px 0;
     }
-
 }
 
 @media (max-width: 790px) {
@@ -839,6 +909,7 @@ Tricky
     #media {
         min-height: 70vh;
     }
+
     #btn-inscricoes {
         display: none !important;
     }
@@ -867,6 +938,18 @@ Tricky
     #atividades_content {
         margin-bottom: 25px;
     }
+
+    i.i-right, img.i-right {
+        visibility: hidden;
+    }
+    i.i-left, img.i-left {
+        visibility: hidden;
+    }
+
+    /**
+    menu fixo topo
+     */
+
 }
 
 @media (max-width: 480px) {
@@ -886,6 +969,7 @@ Tricky
     #btn-inscricoes, #btn-contactos {
         display: none;
     }
+
     /*
                     .caption, .caption__media {
                         width: 64px;
@@ -895,7 +979,6 @@ Tricky
                         -moz-border-radius: 60px;
                     }
                     */
-
     .caption__overlay__title {
         font-size: 12px;
         padding: 0 0px 10px 0px;
@@ -912,4 +995,16 @@ Tricky
     #atividades {
         min-height: 160vh;
     }
+}
+
+
+/**
+experimentação
+ */
+
+#atividades, #ais_2017, #about {
+    /*background: url("assets/ep_naturalblack.png") repeat 0 0px;*/
+}
+#challenges, #partners, #contacts {
+    /*background: url("assets/circles-and-roundabouts.png.png") repeat 0 0px;*/
 }

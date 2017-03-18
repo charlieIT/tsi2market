@@ -13,8 +13,9 @@
               IT, events, it events, empresas tecnologia, universidade, MIEGSI,
               DSI, departamento sistemas informação, dsi uminho, miguel gonçalves, spark agency,
               carreira">
-    <meta property="og:title" content="TSI2MARKET 2017" />
-    <meta property="og:description" content="Evento anual organizado pelo Núcleo de Estudantes de Sistemas de Informação" />
+    <meta property="og:title" content="TSI2MARKET 2017"/>
+    <meta property="og:description"
+          content="Evento anual organizado pelo Núcleo de Estudantes de Sistemas de Informação"/>
     <meta property="og:type" content="website"/>
     <meta property="og:url" content="tsi2market.dsi.uminho.pt">
     <meta property="og:image" content="https://charlieit.github.io/assets/cartaz_tsi_og.png"/>
@@ -103,16 +104,15 @@
     </script>
 </head>
 
-<body class="landing-image">
+<body class="">
 
 <!-- Following Menu -->
-<div id="sec_top" class="ui medium top borderless fixed hidden menu">
+<div id="sec_top" class="ui medium top borderless fixed hidden menu ">
     <div class="ui container">
-
         <a class="active item transformed" href="http://tsi2market.dsi.uminho.pt">TSI2Market!</a>
         <a class="item" href="agenda/">Agenda</a>
         <a class="item" href="#empresas">Empresas</a>
-        <a class="item">TechPaper</a>
+        <a class="item" href="#challenges">Desafios</a>
         <div id="social_media" class="item">
             Redes Sociais
             <div class="ui floating dropdown">
@@ -131,6 +131,11 @@
                     <a class="item" href="https://twitter.com/aissc_uminho" target="_blank">
                         <i class="icon twitter red"></i> Twitter
                     </a>
+                    <a class="item" href="https://www.instagram.com/ais.sc.um/" target="_blank">
+                        <i class="icon instagram orange"></i> Instagram
+                    </a>
+
+
                 </div>
             </div>
         </div>
@@ -147,13 +152,14 @@
                 <i class="linkedin square icon blue"></i> LinkedIn
             </a>
 
-            <a class="item" href="https://twitter.com/aissc_uminho" target="_blank">
-                <i class="icon twitter red"></i> Twitter
+            <a class="item" href="https://www.instagram.com/ais.sc.um/" target="_blank">
+                <i class="icon instagram red"></i> Instagram
             </a>
         </div>
         <a class="right floated item" href="#contacts">Contactos</a>
         <a href="hextris-gh-pages/index.html"
            class="item" target="_blank">Have Fun! :)</a>
+
     </div>
 </div>
 
@@ -163,22 +169,23 @@
     <a class="item" href="agenda/">Agenda</a>
     <a class="item" href="#prog_details">Programa</a>
     <a class="item" href="#empresas">Empresas</a>
-    <a class="item">Oradores</a>
-    <a href="hextris-gh-pages/index.html" class="item" target="_blank">Have Fun! :)</a>
+    <a class="item" href="#challenges">Desafios</a>
     <a href="#contacts" class="item">Contactos</a>
+    <a href="hextris-gh-pages/index.html" class="item" target="_blank">Have Fun! :)</a>
     <a class="item" href="http://aissc.dsi.uminho.pt/" target="_blank">
         <i class="teal globe icon"></i> AIS.SC@DSI
     </a>
-
     <a class="item" href="https://www.facebook.com/AISSC.UMINHO/" target="_blank">
         <i class="facebook blue icon"></i> Facebook
     </a>
     <a href="https://www.linkedin.com/in/aisscum" class="item" target="_blank">
         <i class="linkedin square icon blue"></i> LinkedIn
     </a>
-
     <a class="item" href="https://twitter.com/aissc_uminho" target="_blank">
         <i class="icon twitter red"></i> Twitter
+    </a>
+    <a class="item" href="https://www.instagram.com/ais.sc.um/" target="_blank">
+        <i class="icon instagram orange"></i> Instagram
     </a>
 </div>
 
@@ -186,8 +193,9 @@
 <!-- Page Contents -->
 <div class="pusher">
     <div id="page">
-        <!-- menu -->
+
         <div class="ui inverted vertical masthead center aligned segment">
+            <!-- menu -->
             <div class="ui container">
                 <!-- secondary??? -->
                 <div class="ui large inverted secondary borderless pointing menu">
@@ -219,46 +227,52 @@
                         </a>
                     </div>
                     <a class="item" href="#empresas">Empresas</a>
-                    <a class="item">Oradores</a>
+                    <a class="item" href="#challenges">Desafios </a>
                     <a class="item" href="hextris-gh-pages/index.html" target="_blank">Have Fun :)</a>
                     <div class="right item">
-                        <a class="ui inverted button" id="btn-inscricoes">Inscrições</a>
+                        <a class="ui disabled inverted button" id="btn-inscricoes">Inscrições</a>
                         <a href="#contacts" class="ui inverted button" id="btn-contactos">Contactos</a>
                     </div>
                 </div>
             </div>
             <!-- main area landing -->
-            <section id="main">
-                <div class="ui two column stackable centered grid">
-                    <!-- background AIS/TSI? -->
+            <div id="bg" style="margin-top: 2%;">
+                <!-- cartaz como fundo para desktop -->
+
+                <section id="main">
                     <div class="ui center aligned column">
-                        <div class="ui text container">
-                            <h1
-                                class="ui inverted header transformed" style="font-size: 70px;">
+                        <div class="ui text container" id="main_text">
+
+                            <h1 class="ui inverted header transformed hidden-desktop" style="font-size: 70px;">
                                 Tsi2Market
                             </h1>
+
                             <h2 class="transformed">3 a 6 de Abril
                                 <br/>
                                 Departamento de Sistemas de Informação
                             </h2>
-
                             <br/>
-                            <h2 id="main_info">
+                            <h2 id="main_info" class="hidden-desktop">
 
                             </h2>
-                            <!--
-                            <a href="#agenda">
-                                <i id="pointer" class="huge pointing down icon"></i>
-                            </a>
-                            -->
+
                         </div>
                     </div>
-                </div>
-            </section>
+                    <!--
+                    <div class="visible-mobile">
+                        <div class="stackable column">
+                            <img src="assets/cartaz-tsi-bg_bw.png"
+                                 style="width:100%;height:50%;">
+                        </div>
+                    </div>
+                    -->
+                </section>
+
+            </div>
         </div>
 
         <!-- Empresas -->
-        <section id="empresas" class="ui stackable segment">
+        <section id="empresas" class="ui stackable segment empresas-bg">
 
             <div id="label_empresas" class="ui container right aligned header transformed">
                 <h1> Empresas </h1>
@@ -268,15 +282,15 @@
                 <script src="empresas.js"></script>
             </div>
             <div id="label_contacto" class="ui container left aligned header transformed">
-                <div class="ui four column stackable grid">
+                <div class="ui center aligned three column stackable grid">
                     <div class="column">
                         <h3>Interessado em participar no evento? </h3>
                     </div>
                     <div class="column">
                         <a href="mailto:aissc@dsi.uminho.pt?Subject=TSI.2.Market-Participação"
-                        target="_blank">
-                        <i class="envelope icon"></i>
-                        aissc@dsi.uminho.pt
+                           target="_blank">
+                            <i class="envelope icon"></i>
+                            aissc@dsi.uminho.pt
                         </a>
                     </div>
                 </div>
@@ -299,7 +313,11 @@
                             workshops, desafios, sessões temáticas e networking privilegiado
                             com as melhores empresas ligadas às Tecnologias de Informação.
                         </p>
-                        <a class="ui large button">Ler</a>
+                        <a class="ui large button"
+                           href="https://aissc.dsi.uminho.pt/category/atividades/a-tsi2market/"
+                           target="_blank">
+                            Mais informação
+                        </a>
                         <h4 class="ui horizontal header divider">
                             <a href="#">...</a>
                         </h4>
@@ -309,16 +327,17 @@
                             Não percas a oportunidade de contactar diretamente com empresas de excelência
                             e junta-te a nós numa semana dedicada inteiramente ao teu futuro profissional!
                         </p>
-                       <!-- <a class="ui large button">Ler</a> -->
+                        <!-- <a class="ui large button">Ler</a> -->
                     </div>
                 </div>
             </div>
         </section>
 
         <!-- Parceiros -->
-        <div class="ui vertical stackable stripe segment">
+        <div class="ui vertical stackable stripe segment" id="partners">
             <div class="ui equal width stackable internally celled grid">
                 <div class="center aligned row">
+                    <!-- Parceiros -->
                     <div class="column">
                         <h3 class="transformed">Parceiros </h3>
                         <br>
@@ -331,7 +350,8 @@
                             </div>
                             <div class="column">
                                 <a href="http://www.aaum.pt/" target="_blank">
-                                    <img class="ui small rounded centered fluid image" style="width:164px;height:120px;"
+                                    <img class="ui small rounded centered fluid image"
+                                         style="width:70%;height:90%;"
                                          src="https://aisscum.files.wordpress.com/2014/07/thumbnail_4a998864807ab87a26999769be0f7230ea5d0c25.jpg"
                                          alt="..">
                                 </a>
@@ -371,35 +391,37 @@
                     -->
                     <div class="column">
                         <h3 class="transformed">Apoios</h3>
-                            <div class="ui three column grid">
-                                <div class="column">
-                                    <a href="http://www.aaum.pt/" target="_blank">
-                                        <img class="ui small rounded centered fluid image" style="width:164px;height:120px;"
-                                             src="https://aisscum.files.wordpress.com/2014/07/thumbnail_4a998864807ab87a26999769be0f7230ea5d0c25.jpg"
-                                             alt="..">
-                                    </a>
-                                </div>
-                                <div class="column">
-                                    <a href="http://www.dsi.uminho.pt/" target="_blank">
-                                        <img class="ui rounded centered image fluid medi-sponsors"
-                                             src="https://aisscum.files.wordpress.com/2014/07/eeng.gif" alt="..">
-                                    </a>
-                                </div>
-                                <!--<div class="column">
-                                    <a href="http://yme.pt/" target="_blank">
-                                        <img class="ui rounded centered fluid image"
-                                             src="
-                                     https://aisscum.files.wordpress.com/2014/11/3cfa0409fe3a29888c4346e9e6b213dbcadbc5a5.jpg"
-                                             alt="..."/>
-                                    </a>
-                                </div>
-                                -->
+                        <div class="ui three column grid">
+                            <div class="column">
+                                <a href="http://www.aaum.pt/" target="_blank">
+                                    <img class="ui small rounded centered fluid image"
+                                         style="width:70%;height:90%;"
+                                         src="https://aisscum.files.wordpress.com/2014/07/thumbnail_4a998864807ab87a26999769be0f7230ea5d0c25.jpg"
+                                         alt="..">
+                                </a>
                             </div>
+                            <div class="column">
+                                <a href="http://www.dsi.uminho.pt/" target="_blank">
+                                    <img class="ui small rounded centered image fluid medi-sponsors"
+                                         src="https://aisscum.files.wordpress.com/2014/07/eeng.gif" alt=".."
+                                         >
+                                </a>
+                            </div>
+                            <!--<div class="column">
+                                <a href="http://yme.pt/" target="_blank">
+                                    <img class="ui rounded centered fluid image"
+                                         src="
+                                 https://aisscum.files.wordpress.com/2014/11/3cfa0409fe3a29888c4346e9e6b213dbcadbc5a5.jpg"
+                                         alt="..."/>
+                                </a>
+                            </div>
+                            -->
                         </div>
                     </div>
-
                 </div>
+
             </div>
+        </div>
 
         <!-- Atividades -->
         <section id="atividades" class="ui inverted stackable segment">
@@ -467,7 +489,7 @@
                             <!--<img src="assets/images/wireframe/white-image.png" class="ui large bordered rounded image"> -->
                             <div class="ui segments">
                                 <div class="ui segment">
-                                   o repórter és tu!
+                                    o repórter és tu!
                                 </div>
                                 <div class="ui segment">
                                     torneio de fifa
@@ -481,7 +503,16 @@
 
                     <div class="row">
                         <div class="right aligned column">
-                            <a class="ui huge button">Inscreve-te já!</a>
+                            <div class="ui left labeled huge button" tabindex="0">
+                                <a class="ui basic right pointing label"
+                                href="#">
+                                    inscreve-te já!
+                                </a>
+                                <div class="ui button">
+                                    <i class="big trophy icon"
+                                    style="padding: 0 10px;"></i>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -562,7 +593,10 @@
                                 <a href="https://www.youtube.com/watch?v=KmHRwvAY4o4&feature=youtu.be"
                                    class="item"
                                    target="_blank">Faz-te Sócio</a>
-                                <a href="#" class="item">Edições anteriores</a>
+                                <a href="https://aissc.dsi.uminho.pt/category/atividades/"
+                                   class="item"
+                                    target="_blank">
+                                    Atividades AIS.SC UMinho</a>
                             </div>
                         </div>
                         <div class="three wide column">
@@ -571,8 +605,8 @@
                                 <a href="https://www.facebook.com/AISSC.UMINHO/?fref=ts" target="_blank">
                                     <i class="big disabled facebook blue icon"></i>
                                 </a>
-                                <a href="https://twitter.com/aissc_uminho" target="_blank">
-                                    <i class="big disabled twitter blue icon"></i>
+                                <a href="https://www.instagram.com/ais.sc.um/" target="_blank">
+                                    <i class="big disabled instagram blue icon"></i>
                                 </a>
                                 <a href="https://www.linkedin.com/in/aisscum" target="_blank">
                                     <i class="big disabled linkedin blue icon"></i>
@@ -596,17 +630,19 @@
                                          src="assets/footer/aaum_logo.jpg"
                                          alt="..">
                                 </a>
-                                <a href="http://www.dsi.uminho.pt/" target="_blank" class="small-footer-logos">
+                                <a href="https://aissc.dsi.uminho.pt/" target="_blank" class="small-footer-logos">
                                     <img class="ui tiny middle stretched aligned disabled rounded image"
                                          src="assets/footer/logo_ais_trp.png"
-                                         alt="jogos grátis na steam :O">
+                                         alt="..">
                                 </a>
+                                <!--
                                 <a href="https://www.facebook.com/cafeuniversidade?fref=ts"
                                    target="_blank" class="small-footer-logos">
                                     <img class="ui middle stretched aligned disabled rounded image"
                                          src="assets/footer/cafe_logo.jpg"
                                          alt="..">
                                 </a>
+                                -->
                             </div>
                         </div>
 

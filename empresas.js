@@ -44,13 +44,28 @@ function init() {
                 var obj = actual_JSON[item][emp];
                 var logo = obj.img;
 
-                var col = document.createElement("column");
+                var col = document.createElement("div");
                 col.className = "column img-container "+ col_count;
 
                 var img = document.createElement("img");
                 img.src = logo;
 
-                col.appendChild(img);
+/*
+                var img = document.createElement("div");
+                img.className = "img";
+                img.style = "background-image:url('"+logo+"')";
+*/
+                if(obj.href) {
+                    var ref = document.createElement("a");
+                    ref.href = obj.href;
+                    ref.appendChild(img);
+                   /* img.appendChild(ref);*/
+                    col.appendChild(ref);
+                } else {
+
+                    col.appendChild(img);
+                }
+
                 row.appendChild(col);
 
 

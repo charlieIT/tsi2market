@@ -35,14 +35,14 @@
       "dia": "3",
       "time":"10:00",
       "orador":"miguel gonçalves",
-      "descricao":"Powered by: Spark Agency <br/>",
+      "descricao":"powered by: Spark agency <br/>sessão motivacional que terá como orador Miguel Gonçalves, ceo e fundador da Spark Agency, um empresário formado em psicologia na universidade do minho e que atua na área de recrutamento e gestão de novos talentos em Portugal",
       "icon":"idea icon"
     },
     "ecis 2017": {
       "dia": "3",
       "time":"14:30",
       "orador":"prof. isabel ramos",
-      "descricao":"a maior conferência europeia de sistemas de informação decorrerá de 5 a 10 de Junho, em Guimarães",
+      "descricao":"a sessão será orientada pela professora isabel ramos do dsi e dará a conhecer melhor aos alunos a conferências ECIS (European Conference on Information Systems), que decorrerá este ano na cidade de Guimarães",
       "icon":"university icon"
     },
     "indústria 4.0": {
@@ -56,7 +56,7 @@
       "dia": "5",
       "time":"16:15",
       "orador":"carlos costa, filipe portela",
-      "descricao":"uma sessão informal com ex alunos do universo tsi@uminho",
+      "descricao":"uma sessão informal com ex alunos do universo tsi@uminho. traz as tuas dúvidas!",
       "icon":"users icon"
     }
   },

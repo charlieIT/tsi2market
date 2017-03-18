@@ -89,6 +89,10 @@ function init() {
                 horas e titulo sessão
                  */
                 var span_conteudo = document.createElement('span');
+                span_conteudo.style="text-align:center;"
+                span_conteudo.innerHTML =  conteudo_sessao.title;
+
+
                 var span_time = document.createElement("span");
                 span_time.className = "time-span-2";
                 span_time.innerHTML = conteudo_sessao.time;
@@ -110,7 +114,7 @@ function init() {
 
                     icon = null;
                     icon = document.createElement('img');
-                    icon.className = "ag-icon";
+                    icon.className = "ag-icon ag-img";
                     icon.src = "../assets/python_icon.ico";
                 }
 
@@ -119,19 +123,23 @@ function init() {
                      *
                      * ícone sessão à direita
                      */
+                    icon.className += " i-right";
                     icon.style = "float:right;"
                     segment.appendChild(icon);
                     /**
                      * tempos à esquerda
                      */
+                    span_time.style =  "float:left; margin: 0 10px 0 0;"
+
+
                     div_aux.appendChild(span_time);
-                    div_aux.innerHTML += " " + conteudo_sessao.title;
+                    div_aux.appendChild(span_conteudo);
 
                     /**
                      * se existirem empresas associadas à sessão
                      */
                     if(conteudo_sessao.empresa) {
-                        div_aux.innerHTML += " - " + conteudo_sessao.empresa;
+                        span_conteudo.innerHTML += " - " + conteudo_sessao.empresa;
                     }
 
                 }
@@ -141,18 +149,24 @@ function init() {
                      * ícone da sessão à esquerda
                      */
                     icon.style = "float:left;";
+                    /*
+                    útil para depois trocar de lado no css
+                     */
+                    icon.className += " i-left";
 
                     /**
                      * tempos à direita
                      */
-                    div_aux.innerHTML = conteudo_sessao.title + " ";
+                   span_conteudo.innerHTML = conteudo_sessao.title + " ";
                     /**
                      * se existirem empresas associadas à sessão
                      */
                     if(conteudo_sessao.empresa && !conteudo_sessao.orador) {
-                        div_aux.innerHTML += " - " + conteudo_sessao.empresa + " ";
+                        span_conteudo.innerHTML += " - " + conteudo_sessao.empresa + " ";
                     }
+                    span_time.style="float:right; margin: 0 0 0 10px;"
                     div_aux.appendChild(span_time);
+                    div_aux.appendChild(span_conteudo);
                 }
 
                 div_aux.appendChild(icon);

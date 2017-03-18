@@ -44,7 +44,7 @@ function init() {
              */
             var desc = item;
             var prog_holder = document.createElement("div");
-            prog_holder.className = "ui inverted my-blue message";
+            prog_holder.className = "ui inverted my-darken-blue message";
             var title_holder = document.createElement("div");
             /*
             * experimentar middle aligned header
@@ -97,7 +97,7 @@ function init() {
                 var conteudo_sessao = actual_JSON[item][s];
 
                 var sessao_coluna = document.createElement("div");
-                sessao_coluna.className = "three wide column " + item + "-" + col_count;
+                sessao_coluna.className = "four wide column " + item + "-" + col_count;
                 sessao_coluna.style = "text-align: center;"
                 /*sessao_holder.appendChild(sessao_coluna);*/
 
