@@ -12,6 +12,10 @@
       "img": "assets/spark_agency.png",
       "href":"www.sparkagency.pt/"
     },
+    "hydra": {
+      "img": "assets/hydra_logo.png",
+      "href":"www.hydra.pt/"
+    },
     "ccg": {
       "img": "assets/ccg_logo.jpg",
       "href":"www.ccg.pt/"
@@ -20,10 +24,6 @@
       "img": "assets/bosch_logo.png",
       "href":"https://www.bosch-career.pt/"
     },
-    "hydra": {
-      "img": "assets/hydra_logo.png",
-      "href":"www.hydra.pt/"
-    },
     "retail consult": {
       "img": "assets/logo_rc.png",
       "href": "http://www.retail-consult.com/"
@@ -31,6 +31,10 @@
     "ceiia": {
       "img": "assets/ceiia.jpg",
       "href": "https://www.ceiia.com/"
+    },
+    "my partner": {
+      "img": "assets/my_partner_logo.png",
+      "href": "http://www.mypartner.pt/default.aspx"
     }
   }
 }

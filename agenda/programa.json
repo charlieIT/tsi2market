@@ -4,7 +4,7 @@
       "dia":"5",
       "time": "9:30",
       "orador": "prof. rui mendes",
-      "descricao": "workshop",
+      "descricao": "-",
       "img" : "../assets/python_icon.ico",
       "note":"python"
     },
@@ -12,21 +12,21 @@
       "dia":"tba",
       "time":"tba",
       "orador":"tba",
-      "descricao":"workshop",
+      "descricao":"-",
       "icon":"android icon"
     },
     "open data": {
       "dia":"tba",
       "time":"",
       "orador":"tba",
-      "descricao":"workshop",
-      "icon":""
+      "descricao":"-",
+      "icon":"share alternate icon"
     },
     "linkedIN":{
       "dia":"6",
       "time":"11:00",
       "orador":"prof. pedro pimenta",
-      "descricao":"workshop",
+      "descricao":"-",
       "icon":"linkedin icon"
     }
   },
@@ -35,7 +35,7 @@
       "dia": "3",
       "time":"9:00",
       "orador":"docentes dsi",
-      "descricao":"",
+      "descricao":"sessão inaugural do evento que contará com a presença de docentes do dsi e da escola de engenharia",
       "icon":"suitcase icon"
     },
     "sessão motivacional": {
@@ -110,7 +110,7 @@
     "dia 4": {
       "time": "",
       "dia":"4",
-      "empresas":"ccg, prime it",
+      "empresas":"ccg, prime it, ceiia",
       "descricao":"",
       "icon":"users icon"
     },

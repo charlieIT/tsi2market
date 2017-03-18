@@ -187,9 +187,14 @@ div {
     height: 64px;
 }
 
-.medi-sponsors {
-    width: 60px;
-    height: 48px;
+img.medi-sponsors {
+    max-width:200px;
+    max-height: 200px;
+}
+
+img.medi-sponsors-edit {
+    max-width:150px;
+    max-height: 150px;
 }
 
 .def-padding {
@@ -697,6 +702,14 @@ div.prog-contents {
     height: auto;
     padding-top: 1.5% !important;
     padding-bottom: 7% !important;
+}
+
+/**
+parceiros e apoios
+ */
+
+#partners div.grid div.column {
+
 }
 
 /**
