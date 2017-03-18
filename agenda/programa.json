@@ -31,6 +31,13 @@
     }
   },
   "sessões temáticas": {
+    "sessão de abertura": {
+      "dia": "3",
+      "time":"9:00",
+      "orador":"docentes dsi",
+      "descricao":"",
+      "icon":"suitcase icon"
+    },
     "sessão motivacional": {
       "dia": "3",
       "time":"10:00",
@@ -51,6 +58,20 @@
       "orador":"prof. francisco duarte",
       "descricao":"",
       "icon":"settings icon"
+    },
+    "realidade virtual & aumentada": {
+      "dia": "4",
+      "time":"16:15",
+      "orador":"centro de computação gráfica",
+      "descricao":"",
+      "icon":"idea icon"
+    },
+    "transformação digital": {
+      "dia": "5",
+      "time":"14:00",
+      "orador":"primavera bss",
+      "descricao":"",
+      "icon":"idea icon"
     },
     "sessão informal" : {
       "dia": "5",
@@ -108,7 +129,7 @@
       "icon":"users icon"
     }
   },
-  "entreternimento": {
+  "entretenimento": {
     "tsi de gala": {
         "dia": "5",
         "time":"20:00",

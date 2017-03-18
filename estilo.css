@@ -664,10 +664,10 @@ a.small-footer-logos img {
 
 .sessao-holder div.column {
     padding: 20px 0;
-    border-right: 1px solid white;
+    /*border-right: 1px solid white;*/
     border-bottom: 1px transparent;
+    text-align: center;
 }
-
 @media (max-width:770px) {
     .sessao-holder div.column {
         border-right: 1px transparent;
