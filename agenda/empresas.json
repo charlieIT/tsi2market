@@ -2,23 +2,23 @@
   "empresas": {
     "primeit": {
       "img": "assets/id-primeit-positive.png",
-      "href":"www.primeit.pt/"
+      "href":"http://www.primeit.pt/"
     },
     "primavera": {
       "img": "assets/primavera_logo.png",
-      "href":"www.primaverabss.com/"
+      "href":"http://www.primaverabss.com/"
     },
     "spark": {
       "img": "assets/spark_agency.png",
-      "href":"www.sparkagency.pt/"
+      "href":"http://www.sparkagency.pt/"
     },
     "hydra": {
       "img": "assets/hydra_logo.png",
-      "href":"www.hydra.pt/"
+      "href":"http://www.hydra.pt/"
     },
     "ccg": {
       "img": "assets/ccg_logo.jpg",
-      "href":"www.ccg.pt/"
+      "href":"http://www.ccg.pt/"
     },
     "bosch": {
       "img": "assets/bosch_logo.png",
