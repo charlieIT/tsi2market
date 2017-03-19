@@ -33,9 +33,9 @@
   "sessões temáticas": {
     "sessão de abertura": {
       "dia": "3",
-      "time":"9:00",
-      "orador":"docentes dsi",
-      "descricao":"sessão inaugural do evento que contará com a presença de docentes do dsi e da escola de engenharia",
+      "time":"9:30",
+      "orador":"",
+      "descricao":"sessão de lançamento do evento",
       "icon":"suitcase icon"
     },
     "sessão motivacional": {
