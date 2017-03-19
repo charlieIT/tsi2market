@@ -11,8 +11,9 @@ https://github.com/charlieIT
     font-family: "Audimat";
     font-style: normal;
     font-weight: normal;
-    src: url("audimat/AUdimat-Regular.otf");
-    src: url("audimat/AUdimat-Bold.otf") format("opentype"), url("audimat/AUdimat-BoldItalic.otf") format("opentype");
+    src: url("https://charlieit.github.io/audimat/AUdimat-Regular.otf");
+    src: url("https://charlieit.github.io/audimat/AUdimat-Bold.otf") format("opentype"),
+    url("https://charlieit.github.io/audimat/AUdimat-BoldItalic.otf") format("opentype");
 }
 
 html {
