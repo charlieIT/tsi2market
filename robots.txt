@@ -1,3 +1,5 @@
 User-agent: *
 Disallow: /assets/photos
 Disallow: /hextris-gh-pages/
+Disallow: /.git/
+Disallow: /.idea/
