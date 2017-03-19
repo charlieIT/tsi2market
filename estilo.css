@@ -371,6 +371,11 @@ img.medi-sponsors-edit {
     font-size: 24px;
 }
 
+#schedule h3.ui span.warning:hover {
+    background-color:red;
+    color: white;
+}
+
 /**
     Roster & fotos
  */
@@ -437,7 +442,15 @@ Challenges & concursos
 
 .transformed {
     /*text-transform: uppercase;*/
+    text-transform: lowercase;
     font-variant: small-caps;
+    letter-spacing: 1px;
+}
+
+.ncl {
+    text-transform: none !important;
+    font-variant: none !important;
+    letter-spacing: normal !important;
 }
 
 .cartaz {
@@ -456,7 +469,7 @@ Challenges & concursos
     display:none;
 }
 
-@media screen and (max-width: 720px) {
+@media (max-width: 720px) {
     .page #sec_top a.toc.item {
         display:block;
     }
@@ -676,6 +689,10 @@ a.small-footer-logos img {
 
 #footer #footer-social-media > i {
     margin: 10px 0px;
+}
+
+#footer a img:hover, #footer a i:hover {
+    opacity: 1 !important;
 }
 
     /**

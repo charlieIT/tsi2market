@@ -35,21 +35,21 @@
       "dia": "3",
       "time":"9:30",
       "orador":"",
-      "descricao":"sessão de lançamento do evento",
+      "descricao":"Sessão de lançamento do evento",
       "icon":"suitcase icon"
     },
     "sessão motivacional": {
       "dia": "3",
       "time":"10:00",
       "orador":"miguel gonçalves",
-      "descricao":"powered by: Spark agency <br/>sessão motivacional que terá como orador Miguel Gonçalves, ceo e fundador da Spark Agency, um empresário formado em psicologia na universidade do minho e que atua na área de recrutamento e gestão de novos talentos em Portugal",
+      "descricao":"powered by: Spark agency <br/>Sessão Motivacional que terá como orador Miguel Gonçalves, CEO e fundador da Spark Agency, um empresário formado em Psicologia na Universidade do Minho e que atua na área de recrutamento e gestão de novos talentos em Portugal",
       "icon":"idea icon"
     },
     "ecis 2017": {
       "dia": "3",
       "time":"14:30",
       "orador":"prof. isabel ramos",
-      "descricao":"a sessão será orientada pela professora isabel ramos do dsi e dará a conhecer melhor aos alunos a conferências ECIS (European Conference on Information Systems), que decorrerá este ano na cidade de Guimarães",
+      "descricao":"A sessão será orientada pela Professora Isabel Ramos do DSI e dará a conhecer melhor aos alunos a conferências ECIS (European Conference on Information Systems), que decorrerá este ano na cidade de Guimarães",
       "icon":"university icon"
     },
     "indústria 4.0": {
@@ -77,8 +77,16 @@
       "dia": "5",
       "time":"16:15",
       "orador":"carlos costa, filipe portela",
-      "descricao":"uma sessão informal com ex alunos do universo tsi@uminho. traz as tuas dúvidas!",
+      "descricao":"Uma sessão informal com ex alunos do universo TSI@UMinho. Traz as tuas dúvidas!",
       "icon":"users icon"
+    },
+
+    "surprise made in" : {
+      "dia": "5",
+      "time":"18:00",
+      "orador":"{?}",
+      "descricao":"Apresentações surpresa. Fica atento!<br/><i icon class='big inverted circular question icon'></i>",
+      "icon":"question icon"
     }
   },
   "concursos": {
@@ -86,7 +94,7 @@
       "dia": "3 a 6",
       "time": "",
       "orador": "todos os participantes",
-      "descricao": "neste tsi2market o repórter és tu! A melhor fotografia do evento ganha um prémio :)",
+      "descricao": "Neste tsi2market o repórter és tu! A melhor fotografia do evento ganha um prémio :)",
       "icon": "camera icon"
     }
   },
@@ -95,7 +103,7 @@
         "dia": "",
         "time":"",
         "orador":"todos os participantes",
-        "descricao":"preparado para um pedipaper tecnológico? Um desafio informal que pretende pôr à prova as tuas capacidades!",
+        "descricao":"Preparado para um Pedipaper tecnológico? Um desafio informal que pretende pôr à prova as tuas capacidades!",
         "icon":"map icon"
     }
   },
@@ -133,8 +141,8 @@
     "tsi de gala": {
         "dia": "5",
         "time":"20:00",
-        "orador":"",
-        "descricao":"jantar de gala do tsi2market",
+        "orador":"todos os participantes",
+        "descricao":"Jantar de gala do TSI2MARKET",
         "icon":"cocktail icon"
     }
   }

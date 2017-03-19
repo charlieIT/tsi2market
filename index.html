@@ -65,7 +65,10 @@
                     $("#sec_top").removeClass('visible');
                     $("#sec_top").addClass('hidden');
                 });
-                $(".pusher").click(function () {
+                /*
+                off-main era pusher mas ocorria um bug com o menu fixo
+                * */
+                $("#off-main").click(function () {
                     $("#sec_top").removeClass('hidden');
                     $("#sec_top").addClass('visible');
                 });
@@ -76,7 +79,7 @@
                         once: false,
                         onBottomPassed: function () {
                             $(".fixed.menu").transition({
-                                animation: "bounce",
+                                animation: "fade in",
                                 duration: "1.6s"
                             });
                         },
@@ -113,7 +116,7 @@
     </script>
 </head>
 
-<body class="">
+<body class="page">
 
 <!-- Following Menu -->
 <div id="sec_top" class="ui medium top borderless fixed hidden menu">
@@ -121,7 +124,7 @@
         <a class="toc item">
             <i class="sidebar icon "></i>
         </a>
-        <a class="active item transformed" href="index.html">TSI2Market!</a>
+        <a class="active item transformed" href="index.html">TSI2MARKET!</a>
         <a class="item" href="agenda/">Agenda</a>
         <a class="item" href="#empresas">Empresas</a>
         <a class="item" href="#challenges">Desafios</a>
@@ -287,11 +290,13 @@
             </div>
         </div>
 
+        <!-- off main serve como fix para algumas questões com o menu fixo que está ligado à div pusher -->
+        <div id="off-main">
         <!-- Empresas -->
         <section id="empresas" class="ui stackable segment empresas-bg">
 
             <div id="label_empresas" class="ui container right aligned header transformed">
-                <h1> Empresas </h1>
+                <h1> empresas </h1>
             </div>
 
             <div id="empresas-js">
@@ -300,7 +305,7 @@
             <div id="label_contacto" class="ui container left aligned header transformed">
                 <div class="ui center aligned three column stackable grid">
                     <div class="column">
-                        <h3>Interessado em participar no evento? </h3>
+                        <h3>interessado em participar no evento? </h3>
                     </div>
                     <div class="column">
                         <a href="mailto:aissc@dsi.uminho.pt?Subject=TSI.2.Market-Participação"
@@ -355,7 +360,7 @@
             <!-- Parceiros -->
             <div class="ui center aligned column">
                     <div class="ui container right aligned header transformed">
-                       <h1>Parceiros </h1>
+                       <h1>parceiros </h1>
                     </div>
 
             </div>
@@ -451,7 +456,7 @@
         <!-- Atividades -->
         <section id="atividades" class="ui inverted stackable segment">
             <div id="label_atividades" class="ui container right aligned header">
-                <h1 class="transformed"> Atividades </h1>
+                <h1 class="transformed"> atividades </h1>
             </div>
 
             <div id="atividades_content" class="landing-image" style="">
@@ -505,7 +510,7 @@
                 <div class="ui middle aligned stackable grid container">
                     <div class="row">
                         <div class="eight wide column">
-                            <h1 class="ui header">Concursos & Desafios</h1>
+                            <h1 class="ui header">concursos & desafios</h1>
                             <p>
 
                             </p>
@@ -556,7 +561,7 @@
 
             <div class="ui middle aligned container">
                 <h2 class="ui right aligned inverted header transformed">
-                    Núcleo de Estudantes de Sistemas de Informação
+                    núcleo de estudantes de sistemas de informação
                 </h2>
                 <div>
                     <div id="roster" class="ui relaxed stackable grid"></div>
@@ -645,16 +650,16 @@
                                     <i class="big disabled linkedin blue icon"></i>
                                 </a>
                                 <a href="https://aissc.dsi.uminho.pt/" target="_blank">
-                                    <i class="big world teal icon"></i>
+                                    <i class="big disabled world teal icon"></i>
                                 </a>
                             </div>
                         </div>
                         <div class="eight wide column">
                             <h4 class="ui inverted header">Apoios</h4>
+                            <div id="apoios-footer">
                             <div class="ui inverted link list">
                                 <a href="https://www.eng.uminho.pt/pt" class=" small-footer-logos" target="_blank">
                                     <img class="ui tiny middle aligned stretched disabled rounded image"
-
                                          src="http://www.dps.uminho.pt/images/EditorTexto/um_eeng.jpg" alt="...">
                                     <!--src="https://aisscum.files.wordpress.com/2014/07/eeng.gif" alt="...">-->
                                 </a>
@@ -677,6 +682,7 @@
                                 </a>
                                 -->
                             </div>
+                        </div>
                         </div>
 
                         <div class="ui six wide centered row" style="font-size: 18px; margin-top:34px;">
@@ -723,6 +729,10 @@
                 $("#flyin").transition("hide");
             });
 
+            $('#apoios-footer').mouseover(function () {
+                var apoio = $(event.target);
+
+            });
         </script>
 
         <!--
@@ -747,6 +757,7 @@
         </script>
 
     </div>
+   <!--close page --></div>
     <!--Close pusher --></div>
 
 </body>

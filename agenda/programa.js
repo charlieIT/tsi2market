@@ -30,7 +30,7 @@ function init() {
         header_container.className = "ui container right aligned header";
         var header = document.createElement("h1");
         header.style = "color: white;";
-        header.innerHTML = "Programa";
+        header.innerHTML = "programa";
         header_container.appendChild(header);
 
         prog_container.append(header_container);
@@ -118,6 +118,10 @@ function init() {
                 }
                 sessao_title.appendChild(sessao_icon);
                 var sessao_txt = document.createElement("span");
+                /*
+                * texto em letras pequnas -> ncl
+                * */
+                sessao_txt.className = "ncl";
                 sessao_txt.innerHTML = sessao;
                 //console.log("->"+sessao);
                 sessao_title.appendChild(sessao_txt);
@@ -160,6 +164,7 @@ function init() {
 
                 /** Descrição */
                 var descricao = document.createElement("p");
+                descricao.className = "ncl";
                 descricao.innerHTML = conteudo_sessao.descricao;
                 /**
                  * adicionar linha caso já estejam preenchidas 3 colunas
