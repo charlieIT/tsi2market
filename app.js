@@ -58,9 +58,17 @@ function init() {
                 var cargo = document.createElement("p");
                 cargo.innerHTML = array[2];
 
-                var noun = document.createElement("p");
-                noun.innerHTML = array[3];
-
+                if(array[4] != null){
+                    var noun = document.createElement('a');
+                    var icon = document.createElement('i');
+                    icon.className = "square linkedin icon";
+                    noun.href = array[4];
+                    noun.target = "_blank";
+                    noun.appendChild(icon);
+                } else {
+                    var noun = document.createElement("p");
+                    noun.innerHTML = array[3];
+                }
                 content.appendChild(cargo);
                 content.appendChild(noun);
                 overlay.appendChild(title);
