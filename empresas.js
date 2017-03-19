@@ -58,6 +58,7 @@ function init() {
                 if(obj.href) {
                     var ref = document.createElement("a");
                     ref.href = obj.href;
+                    ref.target = "_blank";
                     ref.appendChild(img);
                    /* img.appendChild(ref);*/
                     col.appendChild(ref);
