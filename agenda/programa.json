@@ -45,6 +45,14 @@
       "descricao":"Vem descobrir como a “quarta revolução industrial” afetará as organizações em Portugal",
       "icon":"settings icon"
     },
+    "cibersegurança": {
+      "dia": "4",
+      "time":"15:10",
+      "icon":"spy icon",
+      "orador":"engª paula cravo - altice labs",
+      "descricao":"",
+      "empresa":"altice labs"
+    },
     "realidade virtual & aumentada": {
       "dia": "4",
       "time":"16:15",
