@@ -8,20 +8,6 @@
       "img" : "../assets/python_icon.ico",
       "note":"python"
     },
-    "android":{
-      "dia":"tba",
-      "time":"tba",
-      "orador":"tba",
-      "descricao":"-",
-      "icon":"android icon"
-    },
-    "open data": {
-      "dia":"tba",
-      "time":"",
-      "orador":"tba",
-      "descricao":"-",
-      "icon":"share alternate icon"
-    },
     "linkedIN":{
       "dia":"6",
       "time":"11:00",
@@ -49,21 +35,21 @@
       "dia": "3",
       "time":"14:30",
       "orador":"prof. isabel ramos",
-      "descricao":"A sessão será orientada pela Professora Isabel Ramos do DSI e dará a conhecer melhor aos alunos a conferências ECIS (European Conference on Information Systems), que decorrerá este ano na cidade de Guimarães",
+      "descricao":"A sessão será orientada pela Professora Isabel Ramos do DSI e dará a conhecer melhor aos alunos a conferência ECIS (European Conference on Information Systems), que decorrerá este ano na cidade de Guimarães",
       "icon":"university icon"
     },
     "indústria 4.0": {
       "dia": "4",
       "time":"11:10",
       "orador":"prof. francisco duarte - bosch",
-      "descricao":"",
+      "descricao":"Vem descobrir como a “quarta revolução industrial” afetará as organizações em Portugal",
       "icon":"settings icon"
     },
     "realidade virtual & aumentada": {
       "dia": "4",
       "time":"16:15",
       "orador":"centro de computação gráfica",
-      "descricao":"",
+      "descricao":"Sessão interativa, providenciada pelo CCG, sobre dois dos tópicos mais discutidos e explorados da atualidade.",
       "icon":"idea icon"
     },
     "transformação digital": {
@@ -118,7 +104,7 @@
     "dia 4": {
       "time": "",
       "dia":"4",
-      "empresas":"ccg, prime it, ceiia",
+      "empresas":"ccg, prime it, ceiia, my partner, altice, inova ria",
       "descricao":"",
       "icon":"users icon"
     },
