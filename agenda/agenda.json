@@ -67,10 +67,17 @@
     },
     "4": {
       "time":"14:00",
-      "title":"sessão de empresa",
+      "title":"sessão de empresas",
       "icon":"building icon",
       "orador":"",
-      "empresa":"prime it, ceiia"
+      "empresa":"prime it, ceiia, inovaria"
+    },
+    "6": {
+      "time":"15:10",
+      "title":"cibersegurança",
+      "icon":"spy icon",
+      "orador":"engª paula cravo",
+      "empresa":"altice labs"
     },
     "5": {
       "time":"16:15",
@@ -98,7 +105,7 @@
     },
     "3": {
       "time":"11:45",
-      "title":"sessão de empresa",
+      "title":"sessão de empresas",
       "icon":"building icon",
       "orador":"",
       "empresa":"primavera"
