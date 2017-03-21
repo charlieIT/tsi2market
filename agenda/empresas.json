@@ -35,6 +35,23 @@
     "my partner": {
       "img": "assets/my_partner_logo.png",
       "href": "http://www.mypartner.pt/default.aspx"
+    },
+    "inovaria": {
+      "img":"assets/inovaria.png",
+      "href":"http://www.inova-ria.pt/"
+
+    },
+    "altice": {
+      "img":"assets/altice.png",
+      "href":"http://www.alticelabs.com/pt/"
+    },
+    "kpmg": {
+      "href":"https://home.kpmg.com/xx/en/home.html",
+      "img":"https://assets.kpmg.com/content/dam/kpmg/images/platform/KPMG.png"
+    },
+    "f3m": {
+      "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSUGjMBSsnvktM4GZwkvHIIeVT3_PXglnRDZw9_PQbe68RrD-k",
+      "href":"https://www.f3m.pt/"
     }
   }
 }
