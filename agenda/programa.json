@@ -76,7 +76,7 @@
     "sessão informal" : {
       "dia": "5",
       "time":"16:15",
-      "orador":"carlos costa, filipe portela",
+      "orador":"carlos costa, filipe portela, cátia meneses, pedro fraga - CEO F3M, joão pedro silva",
       "descricao":"Uma sessão informal com ex alunos do universo TSI@UMinho. Traz as tuas dúvidas!",
       "icon":"users icon"
     },
@@ -111,7 +111,7 @@
     "dia 3": {
       "time": "11:30/15:00",
       "dia":"3",
-      "empresas":"spark agency",
+      "empresas":"spark agency, my partner",
       "descricao":"",
       "icon":"users icon"
     },
