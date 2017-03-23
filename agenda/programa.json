@@ -38,6 +38,13 @@
       "descricao":"A sessão será orientada pela Professora Isabel Ramos do DSI e dará a conhecer melhor aos alunos a conferência ECIS (European Conference on Information Systems), que decorrerá este ano na cidade de Guimarães",
       "icon":"university icon"
     },
+    "smart cities": {
+      "dia": "3",
+      "time":"16:15",
+      "orador":"Barcelos - Cândido Mariz<br/>Braga - Teresa Pestana<br/>Famalicão - Carlos Sousa<br/>Guimarães - Bruno Oliveira",
+      "descricao":"",
+      "icon":"sitemap icon"
+    },
     "indústria 4.0": {
       "dia": "4",
       "time":"11:10",
