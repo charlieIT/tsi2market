@@ -29,18 +29,18 @@
       "empresa":""
     },
     "5": {
-      "time":"14:30",
-      "title":"apresentação do novo braga delivery center",
-      "icon":"building icon",
-      "orador":"",
-      "empresa":"accenture"
-    },
-    "6": {
       "time":"14:00",
       "title":"ecis 2017",
       "icon":"university icon",
       "orador":"dr. isabel ramos",
       "empresa":""
+    },
+    "6": {
+      "time":"14:30",
+      "title":"apresentação do novo braga delivery center",
+      "icon":"building icon",
+      "orador":"",
+      "empresa":"accenture"
     },
     "7": {
       "time":"16:10",
