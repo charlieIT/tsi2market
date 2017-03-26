@@ -4,7 +4,7 @@
       "dia":"5",
       "time": "9:30",
       "orador": "prof. rui mendes",
-      "descricao": "pré-requisitos: <br/> todos os participantes devem ter o python 3 instalado nas suas máquinas<br/>versão 3.6.1 ou superior",
+      "descricao": "pré-requisitos: <br/> todos os participantes devem ter o python 3 instalado nas suas máquinas<br/>",
       "img" : "../assets/python_icon.ico",
       "note":"python"
     },
