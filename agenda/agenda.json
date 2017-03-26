@@ -1,7 +1,7 @@
 {
   "3": {
     "1": {
-      "time": "9:00",
+      "time": "9:20",
       "title": "sessão de abertura",
       "icon": "suitcase icon",
       "orador": "docentes dsi",
@@ -15,11 +15,11 @@
       "empresa":"spark agency"
     },
     "3": {
-      "time":"11:30",
-      "title":"networking",
-      "icon":"users icon",
+      "time":"11:45",
+      "title":"sessão de empresas",
+      "icon":"building icon",
       "orador":"",
-      "empresa":""
+      "empresa":"my partner"
     },
     "4": {
       "time":"12:30",
@@ -29,13 +29,20 @@
       "empresa":""
     },
     "5": {
+      "time":"14:30",
+      "title":"apresentação do novo braga delivery center",
+      "icon":"building icon",
+      "orador":"",
+      "empresa":"accenture"
+    },
+    "6": {
       "time":"14:00",
       "title":"ecis 2017",
       "icon":"university icon",
       "orador":"dr. isabel ramos",
       "empresa":""
     },
-    "6": {
+    "7": {
       "time":"16:10",
       "title":"smart cities - quadrilátero",
       "icon":"sitemap icon",
@@ -44,7 +51,7 @@
     },
     "8": {
       "time":"20:00",
-      "title":"concurso",
+      "title":"torneio de fifa",
       "icon":"trophy icon",
       "orador":"",
       "empresa":""
@@ -52,9 +59,9 @@
   },
   "4": {
     "1": {
-      "time":"9:00",
-      "title":"",
-      "icon":"",
+      "time":"10:00",
+      "title":"networking",
+      "icon":"users icon",
       "orador":"",
       "empresa":""
     },
@@ -81,7 +88,7 @@
     },
     "5": {
       "time":"15:10",
-      "title":"cibersegurança",
+      "title":"cibersegurança - altice labs",
       "icon":"spy icon",
       "orador":"engª paula cravo",
       "empresa":"altice labs"
@@ -115,7 +122,7 @@
       "title":"sessão de empresas",
       "icon":"building icon",
       "orador":"",
-      "empresa":"primavera"
+      "empresa":"primavera bss"
     },
     "4": {
       "time":"13:00",
@@ -125,11 +132,11 @@
       "empresa":""
     },
     "5": {
-      "time":"14:00",
+      "time":"14:30",
       "title":"transformação digital",
       "icon":"idea icon",
       "orador":"",
-      "empresa":"primavera"
+      "empresa":"primavera bss"
     },
     "6": {
       "time":"16:15",
@@ -177,7 +184,7 @@
     },
     "4": {
       "time": "16:15",
-      "title": "apresentações challenge@tsi",
+      "title": "apresentações challenge@tsi - techpaper",
       "icon": "map icon",
       "orador": "",
       "empresa": ""

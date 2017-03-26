@@ -4,7 +4,7 @@
       "dia":"5",
       "time": "9:30",
       "orador": "prof. rui mendes",
-      "descricao": "-",
+      "descricao": "pré-requisitos: <br/> todos os participantes devem ter o python 3 instalado nas suas máquinas<br/>versão 3.6.1 ou superior",
       "img" : "../assets/python_icon.ico",
       "note":"python"
     },
@@ -64,7 +64,7 @@
       "dia": "4",
       "time":"16:15",
       "orador":"centro de computação gráfica",
-      "descricao":"Sessão interativa, providenciada pelo CCG, sobre dois dos tópicos mais discutidos e explorados da atualidade.",
+      "descricao":"Sessão interativa, providenciada pelo CCG, sobre dois dos tópicos mais discutidos e explorados da atualidade.<br/>[<a href='http://www.ccg.pt/tsi2-market-2017-3-6-abril-2017-azurem/'>+ info</a>]",
       "icon":"idea icon"
     },
     "transformação digital": {
@@ -88,6 +88,13 @@
       "orador":"{?}",
       "descricao":"Apresentações surpresa. Fica atento!<br/><i icon class='big inverted circular question icon'></i>",
       "icon":"question icon"
+    },
+    "sessão de encerramento": {
+      "dia": "6",
+      "time":"18:00",
+      "orador":"todos os participantes",
+      "descricao":"entrega de todos os prémios & encerramento do evento",
+      "icon":"power icon"
     }
   },
   "concursos": {
@@ -110,28 +117,28 @@
   },
   "networking" :{
     "dia 3": {
-      "time": "11:30/15:00",
+      "time": "",
       "dia":"3",
-      "empresas":"spark agency, my partner",
+      "empresas":"spark agency, my partner, accenture",
       "descricao":"",
       "icon":"users icon"
     },
     "dia 4": {
       "time": "",
       "dia":"4",
-      "empresas":"ccg, prime it, ceiia, my partner, altice, inova ria",
+      "empresas":"ccg, prime it, ceiia, my partner, altice, inova ria, accenture",
       "descricao":"",
       "icon":"users icon"
     },
     "dia 5": {
-      "time": "10:00",
+      "time": "",
       "dia":"5",
       "empresas":"primavera",
       "descricao":"",
       "icon":"users icon"
     },
     "dia 6": {
-      "time": "10:00",
+      "time": "",
       "dia":"6",
       "empresas":"hydra it, retail consult",
       "descricao":"",
@@ -139,12 +146,26 @@
     }
   },
   "entretenimento": {
+    "torneio de fifa": {
+      "dia": "3",
+      "time":"20:00",
+      "orador":"todos os participantes",
+      "descricao":"és um às da bola ou um exímio treinador de bancada? vem provar o teu talento no nosso torneio de fifa, com direito a prémios para os vencedores<br/>",
+      "icon":"trophy icon"
+    },
     "tsi de gala": {
         "dia": "5",
         "time":"20:30",
         "orador":"todos os participantes",
         "descricao":"Jantar de gala do TSI2MARKET!<br/>[Quinta de Loureiro Velho]<br/>Menu completo com direito a entradas, dois pratos e sobremesa<br/>A festa será no mesmo local até às 3 horas!<br/>Será disponibilizado transporte de ida e volta<br/>[<a href='https://aissc.dsi.uminho.pt/2017/03/21/tsi-de-gala17/'>+ info</a>]",
         "icon":"cocktail icon"
+    },
+    "farewell drinks": {
+      "dia": "6",
+      "time":"19:00",
+      "orador":"todos os participantes",
+      "descricao":"",
+      "icon":"cocktail icon"
     }
   }
 }
