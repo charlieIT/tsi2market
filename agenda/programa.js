@@ -98,7 +98,7 @@ function init() {
 
                 var sessao_coluna = document.createElement("div");
                 sessao_coluna.className = "four wide column " + item + "-" + col_count;
-                sessao_coluna.style = "text-align: center;"
+                sessao_coluna.style = "text-align: left;"
                 /*sessao_holder.appendChild(sessao_coluna);*/
 
 
