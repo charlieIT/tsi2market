@@ -15,11 +15,11 @@
       "empresa":"spark agency"
     },
     "3": {
-      "time":"11:45",
+      "time":"11:15",
       "title":"sessão de empresas",
       "icon":"building icon",
       "orador":"",
-      "empresa":"my partner"
+      "empresa":"startup braga, my partner"
     },
     "4": {
       "time":"12:30",
@@ -99,6 +99,20 @@
       "icon":"idea icon",
       "orador":"",
       "empresa":"ccg"
+    },
+    "7": {
+      "time":"18:00",
+      "title":"workshop meditação",
+      "icon":"smile icon",
+      "orador":"",
+      "empresa":""
+    },
+    "8": {
+      "time":"18:30",
+      "title":"bpm - kpmg",
+      "icon":"building icon",
+      "orador":"",
+      "empresa":"kpmg"
     }
   },
   "5": {
@@ -146,13 +160,20 @@
       "empresa":""
     },
     "7": {
+      "time":"17:30",
+      "title":"agarra o teu futuro com 7 estacas",
+      "icon":"idea icon",
+      "orador":"miguel 7 estacas",
+      "empresa":""
+    },
+    "8": {
       "time":"18:00",
       "title":"surprise made in",
       "icon":"help icon",
       "orador":"?",
       "empresa":"?"
     },
-    "8": {
+    "9": {
       "time":"20:30",
       "title":"tsi de gala",
       "icon":"cocktail icon",

@@ -34,15 +34,87 @@
             integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
             crossorigin="anonymous"></script>
     <script src="semantic/dist/semantic.min.js"></script>
+    <!-- testemunhos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.theme.default.min.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <!-- estilo ^^ -->
     <link rel="stylesheet" type="text/css" href="estilo.css">
 
     <!-- styling -->
     <style>
 
+        .fundo{
+            background: #1e4b6e;
+        }
+        .testemunho{
+            margin: 40px 0px;
+        }
+        .testemunho .foto{
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin: 0 auto;
+            overflow: hidden;
+            border: 8px solid rgba(255,255,255,0.15);
+        }
+        .testemunho .foto img{
+            width: 100%;
+            height: auto;
+        }
+        .testemunho .titulo{
+            font-size: 24px;
+            font-weight: bold;
+            color: #fff;
+            margin: 10px 0 0 0;
+        }
+        .testemunho .subtitulo{
+            font-size: 16px;
+            color: #fff;
+        }
+        .testemunho .descricao{
+            padding: 30px 20px;
+            border: 2px solid rgba(255,255,255,0.15);
+            font-size: 18px;
+            color: #fff;
+            margin: 0;
+            position: relative;
+        }
+        .testemunho .descricao:after{
+            content: "\f10e";
+            font-family: fontawesome;
+            font-size: 20px;
+            color: rgba(255,255,255,0.5);
+            position: absolute;
+            bottom: 5px;
+        }
+        .testemunho .descricao:before{
+            content: "\f10d";
+            font-family: fontawesome;
+            position: absolute;
+            top: 5px;
+            left: 10px;
+            font-size: 20px;
+            color: rgba(255,255,255,0.5);
+        }
+        .owl-theme .owl-controls .owl-page.active span{
+            background: #fff;
+            border: 1px solid #fff;
+        }
+        .owl-theme .owl-controls .owl-page span{
+            border: 1px solid #fff;
+            background: transparent;
+            opacity: 1;
+        }
     </style>
 
     <script src="jquery-2.1.4.min.js"></script>
     <script src="jquery-2.1.4.js"></script>
+    <script type="text/javascript" src="testemunhos/owl-carousel.min.js"></script>
     <script src="semantic/dist/components/visibility.js"></script>
     <script src="semantic/dist/components/sidebar.js"></script>
     <script src="semantic/dist/components/transition.js"></script>
@@ -51,6 +123,7 @@
 
 
     <script>
+
         $(document)
             .ready(function () {
 
@@ -110,6 +183,15 @@
                             }
                         }
                     });
+                });
+                $('#testemunho-slider').owlCarousel({
+                    items:1,
+                    pagination:true,
+                    navigationText:["",""],
+                    slideSpeed:1000,
+                    singleItem:false,
+                    autoPlay:true,
+                    autoHeight:true
                 });
             });
 
@@ -248,7 +330,9 @@
                     <a class="item" href="#challenges">Desafios </a>
                     <a class="item" href="http://hextris.io/" target="_blank">Have Fun :)</a>
                     <div class="right item">
-                        <a class="ui disabled inverted button" id="btn-inscricoes">Inscrições</a>
+                        <a class="ui inverted button" id="btn-inscricoes"
+                        href="https://aissc.dsi.uminho.pt/2017/03/27/tsi-2-market-formularios-de-inscricao/"
+                        target="_blank">Inscrições</a>
                         <a href="#contacts" class="ui inverted button" id="btn-contactos">Contactos</a>
                     </div>
                 </div>
@@ -453,6 +537,60 @@
             <!-- close partners -->
         </div>
 
+            <!-- testemunhos -->
+
+            <div class="fundo">
+                <div class="container">
+                    <div id="testemunho-slider" class="owl-carousel owl-theme">
+                        <div class="testemunho">
+                            <div class="row">
+                                <div class="col-md-3 align-self-center">
+                                    <div class="foto">
+                                        <img src="images/IsabelRamos.jpg" alt="">
+                                    </div>
+                                    <h3 class="titulo row justify-content-center">Isabel Ramos</h3>
+                                    <span class="subtitulo row justify-content-center">Diretora do PDTSI</span>
+                                </div>
+                                <div class="col">
+                                    <p class="descricao">
+                                        "O TSI2Market tem-se afirmado como um evento fundamental para o contacto com potenciais empregadores, para compreender os desafios profissionais
+                                        na área dos Sistemas de Informação e para o convívio entre os estudantes dos diferentes ciclos de estudos. A participação dos alunos do Programa Doutoral
+                                        em Tecnolgias e Sistemas de Informação (PDTSI) está agora a começar e prevê-se que venha a tornar fundamental para a criação de uma verdadeira comunidade de
+                                        Sistemas de Informação na Universidade do Minho, na qual se expressa uma mutitude de perspetivas, experiências e conhecimentos técnicos e científicos.
+                                        <br/>
+                                        Esta dimensão de comunidade, e a cooperação que dela resulta, é fundamental para a formação dos estudantes e a projeção dos seus talentos para o exterior.
+                                        Por esta razão julgo fundamental encorajar a participação no TSI2Market"
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="testemunho">
+                            <div class="row">
+                                <div class="col-md-3 align-self-center">
+                                    <div class="foto">
+                                        <img src="images/FilipePortela.jpg" alt="">
+                                    </div>
+                                    <h3 class="titulo row justify-content-center">Filipe Portela</h3>
+                                    <span class="subtitulo row justify-content-center">Docente no DSI</span>
+                                </div>
+                                <div class="col">
+                                    <p class="descricao">
+                                        "O TSI.2.MARKET é um evento de excelência pois promove o intercâmbio de experiência entre alunos ex alunos e empresas.
+                                        Este é o evento maior do universo TSI@UMINHO, destaca-se por ser um evento organizado de alunos para alunos, pela diversidade de atividades que apresenta e pelas
+                                        oportunidades  únicas que oferece aos alunos de estes estarem em contacto com o mercado de trabalho. As palestras permitem aumentar o conhecimento sobre os maiores
+                                        desafios que as tecnologias enfrentam hoje em dia olhando para o presente e perspetivando o futuro.
+                                        <br/>
+                                        Aproveitem a edição de 2017 para explorarem novos desafios,
+                                        estarem em contacto com as organizações e para desenvolver know-how e skills na área das TIC"
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         <!-- Atividades -->
         <section id="atividades" class="ui inverted stackable segment">
             <div id="label_atividades" class="ui container right aligned header">
@@ -634,6 +772,10 @@
                                    class="item" target="_blank">
                                     TSI2Market Media
                                 </a>
+                                <a href="https://www.youtube.com/watch?v=AW58qhbgYEI" target="_blank"
+                                   class="item">
+                                    Vídeo Promocional TSI2MARKET'17
+                                </a>
                             </div>
 
                         </div>
@@ -755,7 +897,6 @@
             ga('send', 'pageview');
 
         </script>
-
     </div>
    <!--close page --></div>
     <!--Close pusher --></div>

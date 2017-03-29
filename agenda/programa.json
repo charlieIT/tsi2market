@@ -67,6 +67,13 @@
       "descricao":"Sessão interativa, providenciada pelo CCG, sobre dois dos tópicos mais discutidos e explorados da atualidade.<br/>[<a href='http://www.ccg.pt/tsi2-market-2017-3-6-abril-2017-azurem/'>+ info</a>]<br/>[<a href='https://docs.google.com/forms/d/e/1FAIpQLSf3WlTAEJWDrSonOQK-URPL00iENVLJMBdQ_TOaOB94v3yurg/viewform?c=0&w=1' target='_blank'>inscrições</a>]",
       "icon":"idea icon"
     },
+    "agarra o futuro com 7 estacas!" : {
+      "dia": "4",
+      "time":"17:30",
+      "orador":"miguel 7 estacas",
+      "descricao":"á conversa com miguel 7 estacas <br/> <a href='http://www.miguel7estacas.com/' target='_blank'>website oficial</a>",
+      "icon":"thumbs up icon"
+    },
     "transformação digital": {
       "dia": "5",
       "time":"14:00",
@@ -119,14 +126,14 @@
     "dia 3": {
       "time": "",
       "dia":"3",
-      "empresas":"spark agency, my partner, accenture",
+      "empresas":"spark agency, my partner, accenture, startup braga",
       "descricao":"",
       "icon":"users icon"
     },
     "dia 4": {
       "time": "",
       "dia":"4",
-      "empresas":"ccg, prime it, ceiia, my partner, altice, inova ria, accenture",
+      "empresas":"ccg, prime it, ceiia, my partner, altice, inova ria, accenture, kpmg",
       "descricao":"",
       "icon":"users icon"
     },

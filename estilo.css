@@ -504,7 +504,17 @@ Challenges & concursos
 #about-text p, #about-text h3 {
     padding: 2px 12px;
     color: white !important;
-    background-color: rgba(0, 0, 0, .4);
+    /*background-color: rgba(0, 0, 0, .4);*/
+    background-color: rgba(30, 75, 110, 0.5);
+}
+
+#about a.button {
+    background-color: rgba(255,255,255,0.5) !important;
+    color: #1e4b6e !important;
+}
+#about a.button:hover {
+    background-color: white !important;
+    color: #1e4b6e !important;
 }
 
 /**
