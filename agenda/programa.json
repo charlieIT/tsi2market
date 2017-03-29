@@ -1,5 +1,12 @@
 {
   "workshops": {
+    "meditação": {
+      "dia":"4",
+      "time": "18:00",
+      "orador": "",
+      "descricao": "",
+      "icon":"smile icon"
+    },
     "python": {
       "dia":"5",
       "time": "9:30",
@@ -12,7 +19,7 @@
       "dia":"6",
       "time":"11:00",
       "orador":"prof. pedro pimenta",
-      "descricao":"[<a href='https://docs.google.com/forms/d/e/1FAIpQLSdB7iX3bDtQ1k12x_reb5CdQfLsqynGvQrOS-bM_-7V7XqX5w/viewform?c=0&w=1' target='_blank'>inscrições</a>]",
+      "descricao":"vem aprender como utilizar & gerir o teu perfil na maior rede profissional do mundo! <br/>[<a href='https://docs.google.com/forms/d/e/1FAIpQLSdB7iX3bDtQ1k12x_reb5CdQfLsqynGvQrOS-bM_-7V7XqX5w/viewform?c=0&w=1' target='_blank'>inscrições</a>]",
       "icon":"linkedin icon"
     }
   },
@@ -67,13 +74,6 @@
       "descricao":"Sessão interativa, providenciada pelo CCG, sobre dois dos tópicos mais discutidos e explorados da atualidade.<br/>[<a href='http://www.ccg.pt/tsi2-market-2017-3-6-abril-2017-azurem/'>+ info</a>]<br/>[<a href='https://docs.google.com/forms/d/e/1FAIpQLSf3WlTAEJWDrSonOQK-URPL00iENVLJMBdQ_TOaOB94v3yurg/viewform?c=0&w=1' target='_blank'>inscrições</a>]",
       "icon":"idea icon"
     },
-    "agarra o futuro com 7 estacas!" : {
-      "dia": "4",
-      "time":"17:30",
-      "orador":"miguel 7 estacas",
-      "descricao":"á conversa com miguel 7 estacas <br/> <a href='http://www.miguel7estacas.com/' target='_blank'>website oficial</a>",
-      "icon":"thumbs up icon"
-    },
     "transformação digital": {
       "dia": "5",
       "time":"14:00",
@@ -88,7 +88,13 @@
       "descricao":"Uma sessão informal com ex alunos do universo TSI@UMinho. Traz as tuas dúvidas!",
       "icon":"users icon"
     },
-
+    "agarra o futuro com 7 estacas!" : {
+      "dia": "5",
+      "time":"17:30",
+      "orador":"miguel 7 estacas",
+      "descricao":"à conversa com miguel 7 estacas <br/> [<a href='http://www.miguel7estacas.com/' target='_blank'>website oficial</a>]",
+      "icon":"thumbs up icon"
+    },
     "surprise made in" : {
       "dia": "5",
       "time":"18:00",
@@ -118,7 +124,7 @@
         "dia": "",
         "time":"",
         "orador":"todos os participantes",
-        "descricao":"Preparado para um Pedipaper tecnológico? Um desafio informal que pretende pôr à prova as tuas capacidades!",
+        "descricao":"Preparado para um Pedipaper tecnológico? Um desafio informal que pretende pôr à prova as tuas capacidades!<br/>[ consulta o <a href='https://drive.google.com/file/d/0B-OysUGbj1__LXFYYnpoNjduamM/view' target='_blank'>regulamento</a> ]",
         "icon":"map icon"
     }
   },

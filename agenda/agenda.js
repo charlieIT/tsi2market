@@ -52,6 +52,7 @@ function init() {
                 var segment = document.createElement('div');
                 segment.className = "ui inverted my-blue segment"
                 var titulo_dia = document.createElement("h3");
+                titulo_dia.style = "text-align:right;"
                 titulo_dia.innerHTML = "dia " + item;
 
                 segment.appendChild(titulo_dia);

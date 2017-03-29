@@ -42,6 +42,8 @@ div {
     font-family: "Audimat", fantasy !important;
 }
 
+
+
 /**
     Backgrounds & body
  */
@@ -397,6 +399,10 @@ img.medi-sponsors-edit {
     padding: 3% 0 10% 0;
 }
 
+#contacts h3{
+    font-size: 1.28rem !important;
+}
+
 /**
 Challenges & concursos
  */
@@ -501,7 +507,7 @@ Challenges & concursos
     padding: 3% 0;
 }
 
-#about-text p, #about-text h3 {
+#about-text p, #about-text h3, #about-text h1 {
     padding: 2px 12px;
     color: white !important;
     /*background-color: rgba(0, 0, 0, .4);*/
@@ -881,6 +887,7 @@ Poderia ser uma solução para ter todas img do mesmo tamanho
 /**
 Tricky
  */
+
 .hidden {
     visibility: hidden;
 }
@@ -924,6 +931,10 @@ Tricky
     #main, #bg {
         height: auto;
         max-height: 80vh;
+    }
+
+    iframe {
+        width: 100%;
     }
 
 }
