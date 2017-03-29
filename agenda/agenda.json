@@ -160,18 +160,18 @@
       "empresa":""
     },
     "7": {
-      "time":"17:30",
-      "title":"agarra o teu futuro com 7 estacas",
-      "icon":"idea icon",
-      "orador":"miguel 7 estacas",
-      "empresa":""
-    },
-    "8": {
       "time":"18:00",
       "title":"surprise made in",
       "icon":"help icon",
       "orador":"?",
       "empresa":"?"
+    },
+    "8": {
+      "time":"18:30",
+      "title":"agarra o teu futuro com 7 estacas",
+      "icon":"idea icon",
+      "orador":"miguel 7 estacas",
+      "empresa":""
     },
     "9": {
       "time":"20:30",

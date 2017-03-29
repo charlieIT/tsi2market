@@ -88,19 +88,19 @@
       "descricao":"Uma sessão informal com ex alunos do universo TSI@UMinho. Traz as tuas dúvidas!",
       "icon":"users icon"
     },
-    "agarra o futuro com 7 estacas!" : {
-      "dia": "5",
-      "time":"17:30",
-      "orador":"miguel 7 estacas",
-      "descricao":"à conversa com miguel 7 estacas <br/> [<a href='http://www.miguel7estacas.com/' target='_blank'>website oficial</a>]",
-      "icon":"thumbs up icon"
-    },
     "surprise made in" : {
       "dia": "5",
       "time":"18:00",
       "orador":"{?}",
       "descricao":"Apresentações surpresa. Fica atento!<br/><i icon class='big inverted circular question icon'></i>",
       "icon":"question icon"
+    },
+    "agarra o futuro com 7 estacas!" : {
+      "dia": "5",
+      "time":"18:30",
+      "orador":"miguel 7 estacas",
+      "descricao":"à conversa com miguel 7 estacas <br/> [<a href='http://www.miguel7estacas.com/' target='_blank'>website oficial</a>]",
+      "icon":"thumbs up icon"
     },
     "sessão de encerramento": {
       "dia": "6",
