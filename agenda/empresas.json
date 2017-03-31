@@ -56,6 +56,18 @@
     "accenture": {
       "img":"assets/acc_logo_black.png",
       "href":"https://www.accenture.com/pt-pt"
+    },
+    "startup braga": {
+      "img":"assets/startup_braga.png",
+      "href":"http://www.investbraga.com/startup/"
+    },
+    "rolling space": {
+      "img":"assets/rollingspace.png",
+      "href":"http://rolling-space.pt/"
+    },
+    "orbcom": {
+      "img":"assets/orbcom.png",
+      "href":"http://www.orbcom.pt/"
     }
   }
 }
