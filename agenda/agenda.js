@@ -20,6 +20,9 @@ function init() {
     loadJSON(function (response) {
         var actual_JSON = JSON.parse(response);
 
+        var dias_semana = ['segunda-feira','terça-feira','quarta-feira','quinta-feira'];
+        var count_dias = 0;
+
         var agenda = $('#agenda');
         var grid = document.createElement('div')
         grid.className = "ui two column stackable grid"
@@ -40,7 +43,7 @@ function init() {
                 var segment = document.createElement('div');
                 segment.className = "ui inverted teal segment"
                 var titulo_dia = document.createElement("h3");
-                titulo_dia.innerHTML = "dia " + item;
+                titulo_dia.innerHTML = dias_semana[count_dias] + " dia " + item;
 
                 segment.appendChild(titulo_dia);
                 row_um.appendChild(segment);
@@ -53,7 +56,7 @@ function init() {
                 segment.className = "ui inverted my-blue segment"
                 var titulo_dia = document.createElement("h3");
                 titulo_dia.style = "text-align:right;"
-                titulo_dia.innerHTML = "dia " + item;
+                titulo_dia.innerHTML = dias_semana[count_dias] + " dia " + item;
 
                 segment.appendChild(titulo_dia);
                 row_um.appendChild(segment);
@@ -186,6 +189,8 @@ function init() {
             if(col_count > 2) {
                 col_count = 1;
             }
+
+            count_dias++;
         }
 
 
