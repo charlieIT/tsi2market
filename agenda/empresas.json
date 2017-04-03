@@ -68,6 +68,10 @@
     "orbcom": {
       "img":"assets/orbcom.png",
       "href":"http://www.orbcom.pt/"
+    },
+    "glintt": {
+    "img":"https://www.glintt.com/style%20library/GlinttPublicPortal/img/logo.png",
+    "href":"https://www.glintt.com/pt/Paginas/home.aspx"
     }
   }
 }
